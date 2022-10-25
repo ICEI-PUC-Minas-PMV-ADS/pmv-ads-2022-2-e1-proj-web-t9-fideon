@@ -8,10 +8,13 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 
 ## Personas
 
-Beatriz Campos tem 22 anos, é estudante e jovem aprendiz, que sonha com um mundo mais tecnológico, sem muita burocracia e com uso mínimo de papeis (questão ambiental). É extremamente conectada as redes sociais como o Instagram, TikTok e Pinterest.
-Bernardo Costa tem 40 anos, é formado em técnico eletrônica, computação e Sistema da Informação e é sócio de uma empresa de desenvolvimento de sistemas. No seu dia a dia, ele costuma usar o facebook, linkedin e aplicativos de bancos.
-A empresa Bão de Minas é uma empresa do setor alimentício, voltada para comidas típicas de Minas Gerais oferecidas em forma de brunch. Ela está no mercado a 8 anos e utiliza o facebook, instagram e linkedin para divulgar seus serviços e produtos.
-A empresa Açaí Legal é uma empresa do setor alimenticio voltada para a venda de cremes de açaí e sorvetes. Ela está no mercado a 10 anos e otiliza o facebook, intagram e linkein para divulgar os produtos e serviços da empresa.
+> - Beatriz Campos tem 22 anos, é estudante e jovem aprendiz, que sonha com um mundo mais tecnológico, sem muita burocracia e com uso mínimo de papeis (questão ambiental). É extremamente conectada as redes sociais como o Instagram, TikTok e Pinterest.
+
+> - Bernardo Costa tem 40 anos, é formado em técnico eletrônica, computação e Sistema da Informação e é sócio de uma empresa de desenvolvimento de sistemas. No seu dia a dia, ele costuma usar o facebook, linkedin e aplicativos de bancos.
+
+> - A empresa Bão de Minas é uma empresa do setor alimentício, voltada para comidas típicas de Minas Gerais oferecidas em forma de brunch. Ela está no mercado a 8 anos e utiliza o facebook, instagram e linkedin para divulgar seus serviços e produtos.
+
+> - A empresa Açaí Legal é uma empresa do setor alimenticio voltada para a venda de cremes de açaí e sorvetes. Ela está no mercado a 10 anos e otiliza o facebook, intagram e linkein para divulgar os produtos e serviços da empresa.
 
 > **Links Úteis**:
 > - [Rock Content](https://rockcontent.com/blog/personas/)
