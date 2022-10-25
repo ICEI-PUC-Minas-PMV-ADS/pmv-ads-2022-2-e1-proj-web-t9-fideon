@@ -1,46 +1,29 @@
 # Introdução
 
-Texto descritivo com a visão geral do projeto abordado. Inclui o contexto, o problema, os objetivos, a justificativa e o público-alvo do projeto.
+Uma pessoa sai de sua casa para ir a um restaurante, lanchonete ou mesmo a uma simples sorveteria em que ela já possua um sistema de fidelização e, ao chegar lá, percebe que esqueceu o cartão fidelidade em casa, ou perdeu ou mesmo pegou o cartão de outro estabelecimento. A mesma pessoa, pode estar um dia passando em frente ao estabelecimento onde um dia ela ganhou um cartão fidelidade e decide consumir algo ali para adquirir mais um benefício e percebe que não está com o cartão, logo, ela não consegue provar que ela tem vantagens ao adquirir o produto deles e percebe que é desconfortável andar com muitos cartões só para provar que consome no estabelecimento.
+Ao mesmo tempo, a empresa que utiliza sistema de fidelização por cartão/papel, percebe que suas vendas e clientes vem diminuindo justamente por que estes não conseguem provar o consumo no local e não gostam de ficar andando com muitos cartões na bolsa/carteira, portanto, preferem ir para outro estabelecimento e, além disso, a empresa vê seus gastos com a produção de cartões aumentando a cada mês.
+Nesse sentido, torna-se fundamental adotar um sistema de fidelização que não dependa somente do cartão físico, mas sim de um sistema capaz de guardar essas informações com mais segurança com responsabilidade da própria empresa
 
 ## Problema
-Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
-
-Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de  fato existir, pois ainda não é a hora de apresentar requisitos  detalhados ou projetos.
-
-Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
-
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
+Conforme exposto, o problema que se busca resolver com este projeto é a dependência de cartões físicos de fidelidade para adquirir ou fornecer benefícios.
 
 ## Objetivos
 
-Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. 
+O objetivo geral deste trabalho é a criação de um sistema online de fidelidade que apresente ferramentas de fácil uso e que permita o acesso a todos os benefícios adquiridos em diferentes empresas pelo usuário (cliente) apenas com um login e senha de cadastro.
 
-Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
- 
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
+Como objetivos específicos, podemos ressaltar:
+●	Fornecer informações para a empresa sobre o aumento/diminuição de clientes;
+●	Categorizar os clientes;
+●	Permitir que o cliente avalie e pontue a empresa (interaja com os estabelecimentos).
 
 ## Justificativa
 
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
-
-O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
-
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
+A tecnologia está cada vez mais dominando tarefas simples do dia a dia. Uma empresa que deixa de atender uma demanda como a de manter o registro de benefícios oferecidos por ela ao cliente, pode ter problemas relacionados ao faturamento, uma vez que esse cliente pode optar por uma empresa que oferece um sistema de fidelização online. 
 
 ## Público-Alvo
 
-Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações
-hierárquicas, etc.
+O foco deste trabalho está no público que utiliza e exige a utilização da tecnologia para tudo, ou quase tudo, no seu dia a dia e também em empresas que querem buscar e fidelizar clientes de uma forma mais tecnológica.
+Desta forma, estabeleceu-se como público-alvo desta solução os homens e as mulheres entre 15 e 50 anos que fazem uso frequente de computadores e dispositivos móveis para resolverem pequenos problemas, como o esquecimento do cartão fidelidade de uma empresa X, e também como público-alvo empresas do ramo alimentício.
 
-Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.
 
-> **Links Úteis**:
-> - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
-> - [Como definir o público alvo](https://exame.com/pme/5-dicas-essenciais-para-definir-o-publico-alvo-do-seu-negocio/)
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
+
