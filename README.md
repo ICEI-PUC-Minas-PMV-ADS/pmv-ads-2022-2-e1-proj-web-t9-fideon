@@ -1,23 +1,25 @@
-# TÍTULO DO PROJETO
+# FideOn
 
-`CURSO`
+`Curso Superior Tecnologo em Analise e Desenvolvimento de Sistemas`
 
-`DISCIPLINA`
+`Projeto Web Front-End`
 
-`SEMESTRE`
+`2° Semestre`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+Projeto desenvolvido para a criação de um sistema com beneficios oferecidos a clientes para fideliza-lo a empresa.
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
+* André Luiz dos Santos Braga
+* Ana Flávia Gomes Mendes
+* Claudio Henrique Camelo da Cruz
+* Gustavo Silva Diniz
+* Junia Marina Campos
+* Kennedy de Oliveira Machado Pires
 
 ## Orientador
 
-* Nome completo do professor 1
+* Will Ricardo dos Santos Machado
 
 ## Instruções de utilização
 
