@@ -33,7 +33,8 @@ Com base na análise das personas, foram identificadas as seguintes histórias d
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
 |Beatriz Campos      | Visualizar as empresas que possuo  | Escolher qual posso ir para economizar |
-                       pontos ou beneficios.                dinheiro.
+|                    | pontos ou beneficios.              | dinheiro.                              |
+|--------------------|------------------------------------|----------------------------------------|
 |Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
 
 Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
