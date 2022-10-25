@@ -16,35 +16,25 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 
  - A empresa Açaí Legal é uma empresa do setor alimenticio voltada para a venda de cremes de açaí e sorvetes. Ela está no mercado a 10 anos e otiliza o facebook, intagram e linkein para divulgar os produtos e serviços da empresa.
 
-> **Links Úteis**:
-> - [Rock Content](https://rockcontent.com/blog/personas/)
-> - [Hotmart](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
-> - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-> - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-> - [Mapa de Empatia](https://resultadosdigitais.com.br/blog/mapa-da-empatia/)
-> - [Mapa de Stalkeholders](https://www.racecomunicacao.com.br/blog/como-fazer-o-mapeamento-de-stakeholders/)
->
-Lembre-se que você deve ser enumerar e descrever precisamente e personalizada todos os clientes ideais que sua solução almeja.
-
 ## Histórias de Usuários
 
 Com base na análise das personas, foram identificadas as seguintes histórias de usuários:
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|Beatriz Campos      | Visualizar as empresas que possuo  | Escolher qual posso ir para economizar |
-                       pontos ou beneficios.                dinheiro.                               
-|                    |                                    |                                        |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
-
-Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
-
-> **Links Úteis**:
-> - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
-> - [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
-> - [User Stories: requisitos que humanos entendem](https://www.luiztools.com.br/post/user-stories-descricao-de-requisitos-que-humanos-entendem/)
-> - [Histórias de Usuários: mais exemplos](https://www.reqview.com/doc/user-stories-example.html)
-> - [9 Common User Story Mistakes](https://airfocus.com/blog/user-story-mistakes/)
+|Beatriz Campos      | Visualizar as empresas que possuo pontos ou beneficios| Escolher qual posso ir para economizar dinheiro |
+|Beatriz Campos      | Visualizar empresas que fazem parte do sistema de beneficios                | Gastar menos tempo procurando lanchonetes, sorveterias, cafeterias que oferecem um sistema de retorno ao cliente.     |
+| Beatriz Campos     | Manter um registro de consumo por setor de atuação da empresa | Visualizar onde consumo mais, se em sorveterias, cafeterias, etc e criar um padrão de consumo para compartilhar com meus amigos.       |
+| Beatriz Campos     | Visualizar onde existem restaurantes com diversidade de gastronomia. | Para poder ir à cada um e engrandecer ainda mais seu conhecimento na área.                                                   |                          | Bernardo Costa     | Não ter que me preocupar em guardar meus cartões fidelidades (papel) | Porque sempre esqueço eles e acho chato ter a carteira cheia deles .                                                            |
+| Bernardo Costa     | Que o estabelecimento saiba da minha fidelidade, usando um sistema online. | Pois, ao contrário dos cartões físicos, eu nunca esqueço meu celular, ficando mais fácil provar algo que eles tenham controle interno. |
+| Bernardo Costa     | Lembrete de que meu benefício está para vencer. | Sempre me esqueço o prazo de validade de uma campanha de fidelização. |
+| Bão de Minas       | Parar de perder cliente. | Crescer no mercado de brunch. |
+| Bão de Minas       | Fidelizar cliente através da tecnologia. | Diminuir custos com gráficas. |
+| Bão de Minas       | Um canal de comunicação. | Para manter os clientes já existente. |
+| Açaí Legal         | Controle de comportamento do cliente (produtos mais comprados e frequência). | Adquirir estratégias voltadas a eles para fidelizar mais assertivamente. |
+| Açai Legal         | Diferentes ferramentas de fidelização disponíveis na plataforma. | Para usar a que mais atende determinado comportamento do meu público, de acordo com a época. |
+| Açai Legal         | Uma maneira de compartilhar um benefício adquirido. | Para que o cliente compartilhe e mais pessoa vejam o meu negócio. |
+| Açai Legal         | Categorização de clientes. | Oferecer benefícios de acordo com a frequência de compra do cliente. |
 
 ## Requisitos
 
