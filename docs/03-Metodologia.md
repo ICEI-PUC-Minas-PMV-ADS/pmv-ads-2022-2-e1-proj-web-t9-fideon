@@ -35,7 +35,7 @@ Para organização e distribuição das tarefas do projeto, a equipe está utili
 - **Test**: Nesta lista são colocadas todas as tarefas que necessitam ser testadas.
 - **Done**: nesta lista são colocadas as tarefas que passaram pelos testes e controle de qualidade e estão prontos para ser entregues ao usuário. Não há mais edições ou revisões necessárias, ele está agendado e pronto para a ação.
 
-O quadro Trello do grupo desenvolvido na ferramenta de geranciamento de projetos está disponivel atráves da URL (https://trello.com/b/ZbzGXCM4/fideon) e é apresentado, no estado atual, na figura 1:
+O quadro Trello do grupo desenvolvido na ferramenta de geranciamento de projetos está disponivel atráves da URL [Trello Fideon](https://trello.com/b/ZbzGXCM4/fideon) e é apresentado, no estado atual, na figura 1:
 
 ![Figura 1 - Tela do Trello utilizada pelo grupo](img/tela-trello.png)
 
