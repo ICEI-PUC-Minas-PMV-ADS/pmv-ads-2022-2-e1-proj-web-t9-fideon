@@ -26,6 +26,11 @@ A tela de home-page mostra os beneficios do sistema para empresas e para os clie
 
 ![Tela Home Page](img/tela-home-page.jpeg)
 
+**Tela - Login**
+
+A tela de login é uma para ambos os tipo de usuário, Empresa e Cliente da empresa. Nela, o usuário seleciona seu tipo de relacionamento com o sistema e coloca suas credencias de acesso.
+
+![Tela Login](img/tela-login.jpeg)
 São protótipos usados em design de interface para sugerir a estrutura de um site web e seu relacionamentos entre suas páginas. Um wireframe web é uma ilustração semelhante do layout de elementos fundamentais na interface.
  
 > **Links Úteis**:
