@@ -37,7 +37,7 @@ Para organização e distribuição das tarefas do projeto, a equipe está utili
 
 O quadro Trello do grupo desenvolvido na ferramenta de geranciamento de projetos está disponivel atráves da URL   e é apresentado, no estado atual, na figura 1:
 
-![Figura 1 - Tela do Trello utilizada pelo grupo](img/telatrello.png)
+![Figura 1 - Tela do Trello utilizada pelo grupo](img/tela-trello.png)
 
 ### Ferramentas
 
