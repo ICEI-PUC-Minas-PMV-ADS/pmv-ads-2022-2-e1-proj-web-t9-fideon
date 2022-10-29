@@ -41,14 +41,11 @@ A tela do Usuário Empresa é composta por 3 blocos:
 
 ![Tela Usuário Empresa](img/tela-empresa.jpeg)
 
+**Tela - Usuário Cliente**
 
-São protótipos usados em design de interface para sugerir a estrutura de um site web e seu relacionamentos entre suas páginas. Um wireframe web é uma ilustração semelhante do layout de elementos fundamentais na interface.
- 
-> **Links Úteis**:
-> - [Protótipos vs Wireframes](https://www.nngroup.com/videos/prototypes-vs-wireframes-ux-projects/)
-> - [Ferramentas de Wireframes](https://rockcontent.com/blog/wireframes/)
-> - [MarvelApp](https://marvelapp.com/developers/documentation/tutorials/)
-> - [Figma](https://www.figma.com/)
-> - [Adobe XD](https://www.adobe.com/br/products/xd.html#scroll)
-> - [Axure](https://www.axure.com/edu) (Licença Educacional)
-> - [InvisionApp](https://www.invisionapp.com/) (Licença Educacional)
+A tela do Usuário Cliente é composta por 3 blocos:
+- **Cabeçalho**: onde estara o nome do Usuário cliente e a navegação usuário;
+- **Barra Lateral**: Contém iténs de navegação secundária, como: meus beneficios, estabelecimentos, relatórios, etc;
+- **Conteúdo**: Contém informações importantes para o usuário Cliente, como: meus cartões, estabelecimentos recomendados e mapa com os estabelecimentos próximos a ele.
+
+![Tela Usuário Cliente](img/tela-ciente.jpeg)
