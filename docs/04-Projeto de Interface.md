@@ -31,6 +31,17 @@ A tela de home-page mostra os beneficios do sistema para empresas e para os clie
 A tela de login é uma para ambos os tipo de usuário, Empresa e Cliente da empresa. Nela, o usuário seleciona seu tipo de relacionamento com o sistema e coloca suas credencias de acesso.
 
 ![Tela Login](img/tela-login.jpeg)
+
+**Tela - Usuário Empresa**
+
+A tela do Usuário Empresa é composta por 3 blocos:
+- **Cabeçalho**: onde estara a logo do Usuário empresa e a navegação usuário;
+- **Barra Lateral**: Contém iténs de navegação secundária, como: Clientes, ferramentas, cadastro de produtos, relatórios e outros;
+- **Conteúdo**: Contém informações importantes para o usuário Empresa, como: comentários dos seus clientes e dashboard de ProdutoxQuantidade vendida.
+
+![Tela Usuário Empresa](img/tela-empresa.jpeg)
+
+
 São protótipos usados em design de interface para sugerir a estrutura de um site web e seu relacionamentos entre suas páginas. Um wireframe web é uma ilustração semelhante do layout de elementos fundamentais na interface.
  
 > **Links Úteis**:
