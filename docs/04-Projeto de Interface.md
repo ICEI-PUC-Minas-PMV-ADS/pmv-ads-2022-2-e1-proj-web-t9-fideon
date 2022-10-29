@@ -21,6 +21,7 @@ Conforme fluxo de telas do projeto, apresentado no item anterior, as telas do si
 - **Barra Lateral**: disponível nas telas de login dos usuários e contém elementos de navegação secundária.
 
 **Tela - Home Page Responsiva - Menu de navegação na própria página**
+
 A tela de home-page mostra os beneficios do sistema para empresas e para os clientes da empresa. 
 
 
