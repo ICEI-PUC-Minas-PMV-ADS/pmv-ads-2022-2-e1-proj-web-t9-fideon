@@ -22,8 +22,9 @@ Conforme fluxo de telas do projeto, apresentado no item anterior, as telas do si
 
 **Tela - Home Page Responsiva - Menu de navegação na própria página**
 
-A tela de home-page mostra os beneficios do sistema para empresas e para os clientes da empresa. 
+A tela de home-page mostra os beneficios do sistema para empresas e para os clientes da empresa. Nela, temos o menu de navegação responiva, contendo a logo, informações para empresas, informações sobre os beneficios do sistema e login.
 
+![Tela Home Page](img/tela-home-page.jpeg)
 
 São protótipos usados em design de interface para sugerir a estrutura de um site web e seu relacionamentos entre suas páginas. Um wireframe web é uma ilustração semelhante do layout de elementos fundamentais na interface.
  
