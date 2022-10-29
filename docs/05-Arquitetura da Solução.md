@@ -18,16 +18,10 @@ Os componentes que fazem parte da solução são apresentados na Figura XX.
 A solução implementada conta com os seguintes módulos:
 - **Navegador** - Interface básica do sistema  
   - **Páginas Web** - Conjunto de arquivos HTML, CSS, JavaScript e imagens que implementam as funcionalidades do sistema.
-   - **Local Storage** - armazenamento mantido no Navegador, onde são implementados bancos de dados baseados em JSON. São eles: 
-     - **Canais** - seções de notícias apresentadas 
-     - **Comentários** - registro de opiniões dos usuários sobre as notícias
-     - **Preferidas** - lista de notícias mantidas para leitura e acesso posterior
- - **News API** - plataforma que permite o acesso às notícias exibidas no site.
- - **Hospedagem** - local na Internet onde as páginas são mantidas e acessadas pelo navegador. 
+- **News API** - plataforma que permite o acesso às notícias exibidas no site.
+- **Hospedagem** - local na Internet onde as páginas são mantidas e acessadas pelo navegador. 
 
-> **Links Úteis**:
->
-> - [Whimsical](https://whimsical.com/)
+
 
 Inclua um diagrama da solução e descreva os módulos e as tecnologias que fazem parte da solução. Discorra sobre o diagrama.
 
