@@ -48,4 +48,4 @@ A tela do Usuário Cliente é composta por 3 blocos:
 - **Barra Lateral**: Contém iténs de navegação secundária, como: meus beneficios, estabelecimentos, relatórios, etc;
 - **Conteúdo**: Contém informações importantes para o usuário Cliente, como: meus cartões, estabelecimentos recomendados e mapa com os estabelecimentos próximos a ele.
 
-![Tela Usuário Cliente](img/tela-ciente.jpeg)
+![Tela Usuário Cliente](img/tela-cliente.jpeg)
