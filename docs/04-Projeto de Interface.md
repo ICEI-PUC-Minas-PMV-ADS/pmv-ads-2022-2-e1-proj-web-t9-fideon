@@ -12,6 +12,7 @@ Dentre as preocupações para a montagem da interface do sistema, estamos estabe
 ![User Flow FideOn](img/userflow-fideon.jpeg)
 <center>Figura 2 - User Flow FideOn</center>
 
+
 O diagrama apresentado na figura acima mostra o fluxo de interação do usuário pelas telas do sistema. Cada uma das telas deste fluxo é detalhada na seção de Wireframes que se segue. 
 
 ## Wireframes
