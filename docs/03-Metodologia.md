@@ -38,6 +38,7 @@ Para organização e distribuição das tarefas do projeto, a equipe está utili
 O quadro Trello do grupo desenvolvido na ferramenta de geranciamento de projetos está disponivel atráves da URL [Trello Fideon](https://trello.com/b/ZbzGXCM4/fideon) e é apresentado, no estado atual, na figura 1:
 
 ![Figura 1 - Tela do Trello utilizada pelo grupo](img/tela-trello.png)
+<center>Figura 1 - Tela Trello</center>
 
 ### Ferramentas
 
