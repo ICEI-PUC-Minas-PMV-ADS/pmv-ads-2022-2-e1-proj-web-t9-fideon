@@ -1,0 +1,172 @@
+/* CORPO */
+
+body{
+    font-family: Nunito, sans-serif;
+    color: #1c1c1c;
+    
+}
+
+h1, h2,h3{
+    font-family: Playfair Display, sans-serif;
+    color: #000000;
+}
+
+
+/* Nav */
+
+#menu{
+    position: fixed;
+    width: 100%;
+}
+
+nav{    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #172a38;
+}
+
+nav > a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-weight: 800;
+    font-size: 32px;
+    font-family: Playfair Display, sans-serif;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    width: 100%;
+}
+
+nav ul li{
+    text-align: center;
+    width: 100%;
+}
+
+nav ul li a {
+    display: inline-block;
+    padding: 10px 0;
+    width: 100%;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+/* Cabeçalho */
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1{
+    color: #FFFFFF;
+}
+
+header p{
+    margin-bottom: 2em;
+}
+
+/* serviços */ 
+
+#empresa{   
+    background-color: #a8ab9b;
+}
+
+#serviços p{
+    font-weight: bold;
+}
+
+#vantagens{
+    background-color: #e0c590;
+}
+
+/* Rodapé */ 
+
+#sobre{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 10px 10px 20px 20px;
+    background-color: #172a38;
+    color: #FFFFFF;
+}
+
+#sobre h2{
+    color: #FFFFFF;
+}
+
+#sobre h2{
+    margin-bottom: 2.5em;
+    max-width: 1000px;
+}
+
+@media screen and (min-width: 768px){
+
+    /* nav */
+    nav {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    nav ul{
+        flex-direction: row;
+        width: 70%;
+    }
+
+    /* cabeçalho */
+
+    header{
+        height: 600px;
+        height: 60vh;
+        justify-content: center;
+    }
+
+    
+    /* serviços */
+    
+    #serviços{
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+    
+    #serviços h2{
+        text-align: center;
+        width: 100%
+    }
+    
+    #serviços div{
+        flex-grow: 1;
+        flex-basis: 150px;
+        padding: 0 10px;
+    }
+
+    /* rodapé */ 
+
+    #sobre{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        max-width: 500px;
+        margin: 0 auto;
+    }
+
+    #sobre h2, #sobre p{
+        width: 100%;
+    }
+}
