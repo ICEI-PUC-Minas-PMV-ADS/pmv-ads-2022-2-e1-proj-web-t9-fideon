@@ -19,7 +19,13 @@ h1, h2,h3{
     justify-content: center;
     align-items: center;
 }
-
+.login form{
+    display: flex;
+    flex-direction: column;
+}
+.login input{
+    margin-top: 10px;
+}
 /* Nav */
 
 #menu{
