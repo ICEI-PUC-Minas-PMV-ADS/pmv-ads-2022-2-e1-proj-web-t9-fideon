@@ -11,6 +11,14 @@ h1, h2,h3{
     color: #000000;
 }
 
+/*area de login*/
+
+.area-login{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
 
 /* Nav */
 
