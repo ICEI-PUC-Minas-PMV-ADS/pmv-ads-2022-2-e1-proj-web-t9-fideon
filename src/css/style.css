@@ -19,6 +19,12 @@ h1, h2,h3{
     justify-content: center;
     align-items: center;
 }
+.login{
+    background-color: #1c1c1c;
+    width: 355px;
+    height: 320px;
+    padding: 35px;
+}
 .login form{
     display: flex;
     flex-direction: column;
