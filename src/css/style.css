@@ -59,6 +59,14 @@ form [type="submit"]{
     text-transform: uppercase;
     font-weight: bold;
 }
+
+p{
+    color: #CBD0F7;
+    }
+
+a{
+    color: #5568fe
+}
 /* Nav */
 
 #menu{
