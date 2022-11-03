@@ -52,7 +52,13 @@ h1, h2,h3{
     font-size: 14px;
     
 }
-
+form [type="submit"]{
+    display: block;
+    backgroud-color: #5568fe;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
 /* Nav */
 
 #menu{
