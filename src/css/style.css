@@ -58,6 +58,7 @@ form [type="submit"]{
     font-size: 20px;
     text-transform: uppercase;
     font-weight: bold;
+    cursor: pointer;
 }
 
 p{
@@ -66,6 +67,8 @@ p{
 
 a{
     color: #5568fe;
+    text-decoration: none;
+    margen-left: 10px;
 }
 /* Nav */
 
