@@ -20,7 +20,7 @@ nav{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #172a38;
+    background-color: #33605a;
 }
 
 nav > a {
@@ -59,14 +59,14 @@ nav ul li a {
 #empresa{   
     display: flex;
     align-items: center;
-    background-color: #a8ab9b;
+    background-color: #e9e0d1;
 }
 
 
 #vantagens{
     display: flex;
     align-items: center;
-    background-color: #e0c590;
+    background-color: #91a398;
 }
 
 /* Rodapé */ 
