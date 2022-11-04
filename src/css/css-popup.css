@@ -4,8 +4,8 @@
 
 button{
     margin: 10px auto;
-    background: #33605a;
-    color: wheat;
+    background: #91a398; /*cor backgroud palavra login*/
+    color: #000000; /*cor letra botão login */
     border: 0;
     border-radius: 8px;
     cursor: pointer;
@@ -14,7 +14,7 @@ button{
 
 .popup-wrapper{
     display: none;
-    background: rgba(0, 0, 0, .5);
+    background: #000000(0, 0, 0, .5);
     position: fixed;
     top: 0;
     left: 0;
@@ -30,12 +30,12 @@ button{
     max-width: 350px;
     margin: 10% auto;
     padding: 30px;
-    background: #91a398;
+    background: #33605a /*backgroud principal de trás*/;
     
 }
 
 .popup a{
-    color: wheat;
+    color: #000000; /*letra forgot password e criar conta*/
     cursor: pointer;
     padding: 6px 10px;
     text-decoration: none;
@@ -43,11 +43,12 @@ button{
 
 .popup-content{
     padding: 10px;
-    color: wheat;
+    color: #000000; /*letra remember me*/
 }
 
 .popup-content h2{
-    color: wheat;
+    color: #000000; /*letra login*/
+    
 }
 
 .popup-close{
