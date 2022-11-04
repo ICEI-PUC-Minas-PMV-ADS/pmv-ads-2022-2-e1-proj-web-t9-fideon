@@ -25,7 +25,7 @@ nav{
 
 nav > a {
     text-decoration: none;
-    color: #FFFFFF;
+    color: #ffffff;
     font-weight: 800;
     font-size: 32px;
     font-family: Playfair Display, sans-serif;
@@ -50,7 +50,7 @@ nav ul li a {
     padding: 10px 0;
     width: 100%;
     text-decoration: none;
-    color: #FFFFFF;
+    color: #000000;
 }
 
 /* servicos */ 
@@ -73,7 +73,7 @@ nav ul li a {
 
 #sobre{    
     padding: 10px 10px 20px 20px;
-    background-color:#e9e0d1;
+    background-color:#33605a;
     color: #FFFFFF;
 }
 
