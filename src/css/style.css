@@ -3,7 +3,6 @@
 body{
     font-family: Nunito, sans-serif;
     color: #1c1c1c;
-    
 }
 
 h1, h2,h3{
@@ -11,69 +10,9 @@ h1, h2,h3{
     color: #000000;
 }
 
-/*area de login*/
-
-.area-login{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    justify-content: center;
-    align-items: center;
-}
-.login{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: #e0c590;
-    border-radius: 10px;
-    width: 355px;
-    height: 320px;
-    padding: 35px;
-}
-.login form{
-    display: flex;
-    width: 100%;
-    flex-direction: column;
-}
-.login input{
-    margin-top: 10px;
-    backgroud-color: #252A34;
-    padding-left: 10px;
-    color: #252A34;
-    border: none;
-    height: 45px;
-    outline: none;
-    border-radius: 8px;
-
-}
-.input: :placeholder{
-    color: #CBD0F7; 
-    font-size: 14px;
-    
-}
-form [type="submit"]{
-    display: block;
-    backgroud-color: #5568fe;
-    font-size: 20px;
-    text-transform: uppercase;
-    font-weight: bold;
-    cursor: pointer;
-}
-
-p{
-    color: #1c1c1c;
-    }
-
-a{
-    color: #5568fe;
-    text-decoration: none;
-    margen-left: 10px;
-}
-/* Nav */
+/* Menu nav */
 
 #menu{
-    position: fixed;
     width: 100%;
 }
 
@@ -114,62 +53,37 @@ nav ul li a {
     color: #FFFFFF;
 }
 
-/* Cabeçalho */
+/* servicos */ 
 
-header{
-    display: flex;
-    flex-direction: column;
-    align-items: center;    
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    color: #FFFFFF;
-    text-align: center;
-    padding: 20px;
-}
-
-header h1{
-    color: #FFFFFF;
-}
-
-header p{
-    margin-bottom: 2em;
-}
-
-/* serviços */ 
 
 #empresa{   
+    display: flex;
+    align-items: center;
     background-color: #a8ab9b;
 }
 
-#serviços p{
-    font-weight: bold;
-}
 
 #vantagens{
+    display: flex;
+    align-items: center;
     background-color: #e0c590;
 }
 
 /* Rodapé */ 
 
-#sobre{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
+#sobre{    
     padding: 10px 10px 20px 20px;
     background-color: #172a38;
     color: #FFFFFF;
 }
 
-#sobre h2{
-    color: #FFFFFF;
-}
 
 #sobre h2{
+    color: #FFFFFF;
     margin-bottom: 2.5em;
     max-width: 1000px;
 }
+
 
 @media screen and (min-width: 768px){
 
@@ -184,43 +98,12 @@ header p{
         width: 70%;
     }
 
-    /* cabeçalho */
-
-    header{
-        height: 600px;
-        height: 60vh;
-        justify-content: center;
-    }
-
-    
-    /* serviços */
-    
-    #serviços{
-        flex-direction: row;
-        flex-wrap: wrap;
-        align-items: flex-start;
-        max-width: 1000px;
-        margin: 0 auto;
-    }
-    
-    #serviços h2{
-        text-align: center;
-        width: 100%
-    }
-    
-    #serviços div{
-        flex-grow: 1;
-        flex-basis: 150px;
-        padding: 0 10px;
-    }
-
     /* rodapé */ 
 
     #sobre{
         flex-direction: row;
         flex-wrap: wrap;
-        justify-content: space-around;
-        max-width: 500px;
+        justify-content: space-around;        
         margin: 0 auto;
     }
 
