@@ -9,15 +9,21 @@
 </head>
 <body>
     
-    <aside id="menuOculto" class="menuOculto"> <!--poderia ser nav-->
+    <nav id="menuOculto" class="menuOculto"> <!--poderia ser aside-->
+        <ul>
         <a href="javascript:void(0)" class="btnFechar" onclick="fecharNav()">&times;</a> <!--esse é o icone x do menu-->
-        <a href="#">Inicio</a>
-        <a href="#">Clientes</a>
-        <a href="#">Ferramentas</a>
-        <a href="#">Cad. Produtos</a>
-        <a href="#">Relatórios</a>
-        <a href="#">Atendimento</a>
-    </aside>
+        <li><a href="#">Inicio</a></li>
+        <li><a href="#">Clientes</a>
+            <ul>
+             <li><a href="#">Cadastro</a></li>
+            </ul>
+        </li>
+        <li><a href="#">Ferramentas</a></li>
+        <li><a href="#">Cad. Produtos</a></li>
+        <li><a href="#">Relatórios</a></li>
+        <li><a href="#">Atendimento</a></li>
+        </ul>
+    </nav>
 
     <section id="principal"> <!--todo conteudo da página virá dentro deste container-->
         <span style="font-size:30px;cursor:pointer" onclick="abrirNav()">&#9776;

@@ -25,6 +25,9 @@ body{
 .menuOculto a:hover{
     color: #fff;
 }
+.menuOculto ul{ /*tirar as bolinhas do menu*/
+    list-style: none;
+}
 .btnFechar{
     position: absolute;
     top: 0;
