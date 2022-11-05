@@ -12,15 +12,23 @@ body{
     background-color: #33605a;
     overflow-x: hidden; /*nao mostra a barra de rolagem no eixo x*/
     transition: 0.5s; /*tempo da animação do menu*/
-    padding-top: 60px;  /*pra nao ficar muito colado no topo*/
+    padding-top: 40px;  /*pra nao ficar muito colado no topo*/
 }
 .menuOculto a{ /*elementos dentro do menu*/
     padding: 8px 8px 8px 32px;
-    text-decoration: none;
+    text-decoration: none; /*tira a linha debaixo da escrita do link*/
     font-size: 25px;
     color: #888;
     display: block;
     transition: 0.3s;
+}
+.menuOculto .titulo{
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    line-height: 40px;
+    font-size: 24px;
+    border-bottom: 2px solid #91a398;
 }
 .menuOculto a:hover{
     color: #fff;
