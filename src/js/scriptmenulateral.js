@@ -6,3 +6,7 @@ function fecharNav(){
     document.getElementById("menuOculto").style.width="0";
     document.getElementById("principal").style.marginLeft="0";
 }
+
+$('.submenus').click(function(){
+    $('.menuOculto ul .itenssubmenu').toggleClass('mostra');
+});
