@@ -1,20 +1,20 @@
 body{
-    font-family: 'Nunito", sans-serif;'
+    font-family: 'Nunito', sans-serif;
 }
 
 .menuOculto{
     height: 100%;
     width: 0;
-    position: fixed;
+    position: fixed; /*pra não rolar com a pagina*/
     z-index: 1;
-    top: 0;
-    left: 0;
+    top: 0; /*pra ficar fixo em cima*/
+    left: 0; /*pra ficar fixo a esquerda*/
     background-color: #33605a;
-    overflow-x: hidden;
-    transition: 0.5s;
-    padding-top: 60px;
+    overflow-x: hidden; /*nao mostra a barra de rolagem no eixo x*/
+    transition: 0.5s; /*tempo da animação do menu*/
+    padding-top: 60px;  /*pra nao ficar muito colado no topo*/
 }
-.menuOculto a{
+.menuOculto a{ /*elementos dentro do menu*/
     padding: 8px 8px 8px 32px;
     text-decoration: none;
     font-size: 25px;
@@ -26,7 +26,7 @@ body{
     color: #fff;
 }
 .btnFechar{
-    position: absolut;
+    position: absolute;
     top: 0;
     right: 25px;
     font-size: 36px;
