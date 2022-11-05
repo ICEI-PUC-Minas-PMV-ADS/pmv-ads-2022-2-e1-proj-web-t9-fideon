@@ -33,7 +33,7 @@ button{ /*botão login*/
 }
 
 .popup a{
-    color: #000000; /*letra forgot password e criar conta*/
+    color: #e9e0d1; /*letra forgot password e criar conta*/
     cursor: pointer;
     padding: 6px 10px;
     text-decoration: none;
@@ -41,11 +41,11 @@ button{ /*botão login*/
 
 .popup-content{
     padding: 10px;
-    color: #000000; /*letra remember me*/
+    color: #e9e0d1; /*letra remember me*/
 }
 
 .popup-content h2{
-    color: #000000; /*letra login*/
+    color: #e9e0d1; /*letra login*/
     
 }
 
