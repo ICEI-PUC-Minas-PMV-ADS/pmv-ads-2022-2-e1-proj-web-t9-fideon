@@ -36,6 +36,17 @@ body{
 .menuOculto ul{ /*tirar as bolinhas do menu*/
     list-style: none;
 }
+.menuOculto ul ul li a{
+    font-size: 16px;
+    font-weight: 300;
+    padding-left: 60px;
+}
+.menuOculto ul ul{ /*para ocultar os submenus*/
+    display: none;
+}
+.menuoculto ul .itenssubmenu.mostra{
+    display: block;
+}
 .btnFechar{
     position: absolute;
     top: 0;
