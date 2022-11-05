@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/paginausuario.css">
+    <title>Usuario Cliente</title>
+</head>
+<body>
+    
+    <nav id="menuOculto" class="menuOculto"> <!--poderia ser aside-->
+        <div class="titulo">FideOn</div>
+        <ul>
+        <a href="javascript:void(0)" class="btnFechar" onclick="fecharNav()">&times;</a> <!--esse é o icone x do menu-->
+        <li><a href="#">Inicio</a></li>
+        <li><a href="#" class="submenus">Empresas</a>
+            <ul class="itenssubmenu">
+             <li><a href="#">Onde Encontar?</a></li>
+             <li><a href="#">Minhas Empresas</a></li>
+            </ul>
+        </li>
+        <li><a href="#" class="submenus">Benefícios</a>
+            <ul class="itenssubmenu">
+             <li><a href="#">Benefícios Adquiridos</a></li>
+             <li><a href="#">Benefícios a Vencer</a></li>
+             <li><a href="#">Solicitar</a></li>
+             <li><a href="#">Compartilhar Benefício</a></li>
+            </ul>
+        </li>
+        <li><a href="#">Cad. Produtos</a></li>
+        <li><a href="#" class="submenus">Relatórios</a></li>
+            <ul class="itenssubmenu" >
+             <li><a href="#">Benefícios</a></li>
+           </ul>
+        <li><a href="#">Comentários</a></li>
+        <li><a href="#">Atendimento</a></li>
+        </ul>
+    </nav>
+
+    <section id="principal"> <!--todo conteudo da página virá dentro deste container-->
+        <span style="font-size:30px;cursor:pointer" onclick="abrirNav()">&#9776;
+        </span> <!--o &#9776 são as 3 barrinhas do menu-->
+        <p>FideOn</p>
+    </section>
+
+    <script type="text/javascript" src="js/paginausuario.js"></script>
+</body>
+</html>
