@@ -6,8 +6,8 @@
     font-family: Nunito, sans-serif;
 }
 
-body{
-    width: 100%;
+body{ /*quadrado maior do fundo, a tela cheia*/
+    width: 100%; 
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -19,7 +19,7 @@ body{
     width: 80%;
     height: 80vh;
     display: flex;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, .212);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, .212); /*sombra do bloco de cadatro*/
 }
 
 .form-image{ /*bloco imagem*/
@@ -31,7 +31,7 @@ body{
     padding: 1rem;
 }
 
-.form-image img {
+.form-image img { /*tamanho da imagem no bloco*/
     width: 31rem;
 }
 
@@ -65,7 +65,7 @@ body{
 }
 
 .login-button button:hover{ /*quando passa o mouse por cima, fica outra cor*/
-    background-color: #6b63fff1;
+    background-color: #33605a;
 }
 
 .login-button button a{ /*palavra entrar*/
@@ -132,7 +132,7 @@ body{
     padding: 0 0.5rem;
 }
 
-.gender-input{ /*boloco escolha de generos*/
+.gender-input{ /*bloco escolha de generos*/
     display: flex;
     align-items: center;
 }
@@ -151,17 +151,17 @@ body{
     width: 100%;
     margin-top: 2.5rem;
     border: none;
-    background-color: #33605a;
+    background-color: #91a398;
     padding: 0.62rem;
     border-radius: 5px;
     cursor: pointer;
 }
 
 .continue-button button:hover{
-    background-color: #6b63fff1;
+    background-color: #33605a;
 }
 
-.contiue-button button a{/*letra continuar*/
+.continue-button button a{/*letra continuar*/
     text-decoration: none;
     font-size: 0.93rem;
     font-weight: 500;
