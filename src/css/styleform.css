@@ -16,8 +16,8 @@ body{ /*quadrado maior do fundo, a tela cheia*/
 }
 
 .container{ /*bloco de cadastro*/
-    width: 80%;
-    height: 80vh;
+    width: 90%;
+    height: 90vh;
     display: flex;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, .212); /*sombra do bloco de cadatro*/
 }
