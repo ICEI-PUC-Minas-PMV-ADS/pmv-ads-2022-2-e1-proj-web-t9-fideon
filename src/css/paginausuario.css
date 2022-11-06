@@ -4,7 +4,7 @@ body{
 
 .menuOculto{
     height: 100%;
-    width: 300;
+    width: 0;
     position: fixed; /*pra não rolar com a pagina*/
     z-index: 1;
     top: 0; /*pra ficar fixo em cima*/
@@ -15,7 +15,7 @@ body{
     padding-top: 40px;  /*pra nao ficar muito colado no topo*/
 }
 .menuOculto a{ /*elementos dentro do menu*/
-    padding: 8px 8px 8px 32px;
+    padding: 8px 8px 8px 16px;
     text-decoration: none; /*tira a linha debaixo da escrita do link*/
     font-size: 20px;
     color: #888;
@@ -37,15 +37,12 @@ body{
     list-style: none;
 }
 .menuOculto ul ul li a{
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 300;
-    padding-left: 60px;
+    padding-left: 10px;
 }
 .menuOculto ul ul{ /*para ocultar os submenus*/
-    display: none;
-}
-.menuoculto ul .itenssubmenu.mostra{
-    display: block;
+    display: 100; /*so oculta se escrever none*/
 }
 .btnFechar{
     position: absolute;

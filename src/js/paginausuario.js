@@ -7,6 +7,5 @@ function fecharNav(){
     document.getElementById("principal").style.marginLeft="0";
 }
 
-$('.submenus').click(function(){
-    $('.menuOculto ul .itenssubmenu').toggleClass('mostra');
-});
+
+
