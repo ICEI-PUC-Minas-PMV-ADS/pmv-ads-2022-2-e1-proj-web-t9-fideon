@@ -2,7 +2,7 @@
 <span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Especificação do Projeto</a></span>, <a href="3-Projeto de Interface.md"> Projeto de Interface</a>, <a href="4-Metodologia.md"> Metodologia</a>, <a href="3-Projeto de Interface.md"> Projeto de Interface</a>, <a href="5-Arquitetura da Solução.md"> Arquitetura da Solução</a>
 
 - **Tela Inicial/Login**
-- **Login/Formulario de Cadastro**
+- **Formulário de Cadastro**
 - **Tela Usuário Empresa**
 - **Tela Usuário Cliente**
 
@@ -36,9 +36,10 @@ Imagem.
 
 Código utilizado para o Popup:
 
-**Funcionalidades**
+**Funcionalidades Contempladas**
 
 A página contempla as Funcionalidades: 
+
 - RF-001: O site deve apresentar na página principal um breve relato do objetivo do sitema, um menu categorizado com"Para empresas", "Vantagens" e um botão de login.
 - RF-006: O site deve permitir visualizar as informações de contatos do amntedor do site.
 - RNF-002: O site deverá ser responsivo, permitindo a visualização em um celular de forma adequada.
@@ -53,7 +54,7 @@ A tela de cadastro usuário cliente é utilizada somente pelo cliente da empresa
 
 Imagem
 
-**Funcionalidades**
+**Funcionalidades Contempladas**
 
 O formulario contempla a funcionalidade:
 
@@ -67,7 +68,7 @@ O formulário irá auxiliar essa categorização de clientes.
 A tela usuário empresa é onde a empresa visualizará tudo o que o sistema FideOn oferece. Nela temos um menu lateral contendo: 
 
 - Inicio: que volta pra tela inicial da empresa;
-- Clientes: Neles temos os submenus Cadstro, para cadastrar novos clientes, Perfil, para a empresa identificar o perfil do seu público e comentário, para a empresa ver os comentário feitos em relação ao seus produtos;
+- Clientes: Neles temos os submenus Cadastro, para cadastrar novos clientes, Perfil, para a empresa identificar o perfil do seu público e comentário, para a empresa ver os comentário feitos em relação ao seus produtos;
 - Ferramentas: também é dividido em submenus com as principais formas de fidelização que a empresa pode oferecer ao seu cliente, como: Cartão Fidelidade, CashBack, Categorização e Comunicação, uma forma da empresa se manter mais conectada ao cliente;
 - Cad. Produtos: A empresa poderá cadastrar todos os produtos que ela possui em seu estabelecimento, para ter uma base na hora de oferecer uma fidelização ao seu cliente;
 - Relatórios: A empresa vai conseguiR visualizar relatorios de Vendas, Ferramentas e Feedbacks, colocados como submenus;
@@ -86,13 +87,40 @@ Tambem temos uma menu dopdraw superior, onde conterá informações do usuário 
 
 Aqui virá uma imagem
 
-**Funcionalidades**
+**Funcionalidades Contempladas**
 
 A tela usuário empresa contempla as seguintes funcionalidade:
 
 - RF-009: O sistema deve oferecer um menu adicional que permita ao usuário (empresa) visualizar as formas de fidelização que ele pode oferecer ao cliente.
 - RNF-002: O site deverá ser responsivo, permitindo a visualização em um celular de forma adequada.
 
+# Tela usuário cliente
+
+A tela usuário cliente é onde o cliente da empresa visualizará tudo o que as empresas podem oferecer pra ele. Nela temos um menu lateral contendo: 
+
+- Inicio: que volta pra tela inicial da empresa;
+- Empresas: ;
+- Benefícios: ;
+- Relatórios: O cliente vai conseguiR visualizar relatorios de Benefícios adquiridos;
+- Comentário: O cliente poderá realizar comentários a respeito da empresa que ele adquiriu um benefício;;
+- Atendimento: Aqui ficará os contatos para suporte ao sistema.
+
+Tambem temos uma menu dopdraw superior, onde conterá informações do usuário logado, como:
+
+- Número do Cliente: número de identificação do cliente, oferecido pelo sistema;
+- Endereço: endereço da empresa:
+- Sair: Botão para deslogar do sistema.
+
+**Tela Usuário Empresa**
+
+Aqui virá uma imagem
+
+**Funcionalidades Contempladas**
+
+A tela usuário empresa contempla as seguintes funcionalidade:
+
+- RF-00
+- RNF-002: O site deverá ser responsivo, permitindo a visualização em um celular de forma adequada.
 
 
 **Observação para construção desta etapa**
