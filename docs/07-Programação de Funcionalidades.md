@@ -61,6 +61,30 @@ O formulario contempla a funcionalidade:
 
 O formulário irá auxiliar essa categorização de clientes.
 
+# Tela usuário empresa
+
+A tela usuário empresa é onde a empresa visualizará tudo o que o sistema FideOn oferece. Nela temos um menu lateral contendo: 
+
+- Inicio: que volta pra tela inicial da empresa;
+- Clientes: Neles temos os submenus Cadstro, para cadastrar novos clientes, Perfil, para a empresa identificar o perfil do seu público e comentário, para a empresa ver os comentário feitos em relação ao seus produtos;
+- Ferramentas: também é dividido em submenus com as principais formas de fidelização que a empresa pode oferecer ao seu cliente, como: Cartão Fidelidade, CashBack, Categorização e Comunicação, uma forma da empresa se manter mais conectada ao cliente;
+- Cad. Produtos: A empresa poderá cadastrar todos os produtos que ela possui em seu estabelecimento, para ter uma base na hora de oferecer uma fidelização ao seu cliente;
+- Relatórios: A empresa vai conseguiR visualizar relatorios de Vendas, Ferramentas e Feedbacks, colocados como submenus;
+- Atendimento: Aqui ficará os contatos para suporte ao sistema.
+
+Tambem temos uma menu dopdraw superior, onde conterá informações do usuário logado, como:
+
+- Serviço Prestado: Aqui virá a atividade que a empresa exerce;
+- Telefone: telefone de contato da empresa;
+- CNPJ: Cadastro Nacional de Pessoa Juridixa da empresa;
+- Número do Cliente: número de identificação do cliente, oferecido pelo sistema;
+- Endereço: endereço da empresa:
+- Sair: Botão para deslogar do sistema.
+
+**Tela Usuário Empresa
+
+
+
 
 **Observação para construção desta etapa**
 
