@@ -10,26 +10,53 @@
 
 Na tela inicial, temos um menu categorizado (menu) em "Para Empresas" onde explica para a empresa o objetivo do FideOn, "Vantagens" que mostra a ambos usuários as vantagens de ter o FideOn, "Sobre" mostra os dados dos desenvolvedores do sistema, "Veja no Mapa" traz a localização, através de uma API do MAPS, das empresas que usam o FideOn e o botão "Login" para que o usuário entre na sua página de navegação. Ao clicar nos itens de menu superior, o conteúdo é mostrado na própria página.
 
-![Figura 1 - Tela Inicial - Menu](img/menu-inicial.png)
-<center>Figura 1 - Tela Inicial - Menu</center>
+**Tela Inicial - Menu**
+![Figura 1 - Tela Inicial - Menu](img/menu-inicial.PNG)
 
-![Figura 2 - Tela Inicial - Para Empresas](img/para-empresas.png)
-<center>Figura 2 - Tela Inicial - Para Empresas</center>
+**Tela Incial - Para empresas**
+![Figura 2 - Tela Inicial - Para Empresas](img/para-empresas.PNG)
 
-Toda essa descrição corresponde a funcionalidade RF-01.
-
-
-
-
-Tela Home Page, Funcionalidade RF-01, RF-06 e RNF-02
+**Tela Inicial - Vantagens**
+![Figura 3 - Tela Inicial - Vantagens](img/vantagens.PNG)
 
 
+**Tela Inicial - Veja no Mapa**
 
-Para a RNF-02, foi utilizado...(descrever o codigo??) para deixar a home page responsiva.
+Aqui vai vir uma imagem
 
-Para a RF-06, foi utilizado o campo "Sobre" para manter os dados do mantenedor do sistema.
+**Tela Inicial - Sobre**
 
-O video a seguir demonstra o que foi desenvolvido: (tem como por video aqui?)
+Aqui vai vir uma imagem
+
+**Tela Inicial - Login**
+
+O login está por popup, ou seja, quando o usuário clica para logar, o formulário é aberto na própria página.
+
+Imagem.
+
+Código utilizado para o Popup:
+
+**Funcionalidades**
+
+A página contempla as Funcionalidades: 
+- RF-01: O site deve apresentar na página principal um breve relato do objetivo do sitema, um menu categorizado com"Para empresas", "Vantagens" e um botão de login.
+- RF-06: O site deve permitir visualizar as informações de contatos do amntedor do site.
+- RNF-02: O site deverá ser responsivo, permitindo a visualização em um celular de forma adequada.
+
+# Tela cadastro usuário cliente
+
+A tela de cadastro usuário cliente é utilizada somente pelo cliente da empresa ter acesso ao sistema FideOn e visualizar, a priori, as empresas da sua região e os beneficios que elas oferecem.
+
+É um formula´rio Simples, onde a pessoa preenche seus dados pessoaias, como Nome, Sobrenome, E-mail, CPF e genêro.
+
+**Tela Cadastro**
+
+Imagem
+
+**Funcionalidades**
+
+
+
 
 **Observação para construção desta etapa**
 
