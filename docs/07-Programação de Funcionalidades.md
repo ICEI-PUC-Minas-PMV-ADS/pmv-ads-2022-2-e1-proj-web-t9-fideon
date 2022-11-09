@@ -2,21 +2,15 @@
 
 <span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Especificação do Projeto</a></span>, <a href="3-Projeto de Interface.md"> Projeto de Interface</a>, <a href="4-Metodologia.md"> Metodologia</a>, <a href="3-Projeto de Interface.md"> Projeto de Interface</a>, <a href="5-Arquitetura da Solução.md"> Arquitetura da Solução</a>
 
-01/11/2011
+Tela Home Page, Funcionalidade RF-01, RF-06 e RNF-02
 
-Nesta etapa, o time começou a desenvolver as telas do sistema.
+Na tela home page, foi utilizado HTML e CSS....Nela temos um menu categorizado em "Para Empresas" onde explica para a empresa o objetivo do FideOn, "Vantagens" que mostra a ambos usuários as vantagens de ter o FideOn, "Sobre" mostra os dados dos desenvolvedores do sistema, "Veja no Mapa" traz a localização, através de uma API do MAPS, das empresas que usam o FideOn e o botão "Login" para que o usuário entre na sua página de navegação. Ao clicar nos itens de menu superior, o conteúdo é mostrado na própria página. Toda essa descrição corresponde a funcionalidade RF-01.
 
-Inicialmente, foi focado na tela home page, desenvolvida pelo Gustavo Diniz e com apoio da Designer Ana Flávia e da Scrum Master Junia Campos.
-A home page está responsiva e ao clicar nos itens de menu superior, o conteúdo é mostrado na própria página.
-Temos o botão de login que, a critério do time, está por pop-up (não abre outra página para realizar o login), também foi desenvolvido pelo Gustavo Diniz.
-A tela também trará um mapa com todas as empresas que utilizam o FideOn como fidelização de seus clientes. Foi utilizada uma API do Google para está função.
+Para a RNF-02, foi utilizado...(descrever o codio??) para deixar a home page responsiva.
 
-Após a estruturação da homepage, foi iniciado o desenvolvimento da tela de cadastro, que será utilizada pelo usuário cliente ter acesso a sua área de benefícios. Foi desenvolvida pela Junia Campos.
+Para a RF-06, foi utilizado o campo "Sobre" para manter os dados do mantenedor do sistema.
 
-Após ambas as telas acima desenvolvidas, foi iniciado, pela Junia Campos, a estruturação das páginaas de usuário empresa e usuário cliente, que serão acessadas após login. Por enquanto, só foi adicionado um menu lateral contendo os requisitos solicitados por ambos usuários.
-
-Tanto Ana Flávia quanto o Kennedy de Oliveira, auxiliaram no design das páginas e na resolução de pequenos bugs que foram aparecendo durante seu desenvolvimento.
-
+O video a seguir demonstra o que foi desenvolvido: (tem como por video aqui?)
 
 **Observação para construção desta etapa**
 
