@@ -55,7 +55,11 @@ Imagem
 
 **Funcionalidades**
 
+O formulario contempla a funcionalidade:
 
+- RF-012: O sistemadeve categorizaros clientes por genero e idade (seja por relatório ou dashboard na telainicial.
+
+O formulário irá auxiliar essa categorização de clientes.
 
 
 **Observação para construção desta etapa**
