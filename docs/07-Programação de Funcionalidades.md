@@ -39,9 +39,9 @@ Código utilizado para o Popup:
 **Funcionalidades**
 
 A página contempla as Funcionalidades: 
-- RF-01: O site deve apresentar na página principal um breve relato do objetivo do sitema, um menu categorizado com"Para empresas", "Vantagens" e um botão de login.
-- RF-06: O site deve permitir visualizar as informações de contatos do amntedor do site.
-- RNF-02: O site deverá ser responsivo, permitindo a visualização em um celular de forma adequada.
+- RF-001: O site deve apresentar na página principal um breve relato do objetivo do sitema, um menu categorizado com"Para empresas", "Vantagens" e um botão de login.
+- RF-006: O site deve permitir visualizar as informações de contatos do amntedor do site.
+- RNF-002: O site deverá ser responsivo, permitindo a visualização em um celular de forma adequada.
 
 # Tela cadastro usuário cliente
 
@@ -58,6 +58,7 @@ Imagem
 O formulario contempla a funcionalidade:
 
 - RF-012: O sistemadeve categorizaros clientes por genero e idade (seja por relatório ou dashboard na telainicial.
+- RNF-002: O site deverá ser responsivo, permitindo a visualização em um celular de forma adequada.
 
 O formulário irá auxiliar essa categorização de clientes.
 
@@ -81,8 +82,16 @@ Tambem temos uma menu dopdraw superior, onde conterá informações do usuário 
 - Endereço: endereço da empresa:
 - Sair: Botão para deslogar do sistema.
 
-**Tela Usuário Empresa
+**Tela Usuário Empresa**
 
+Aqui virá uma imagem
+
+**Funcionalidades**
+
+A tela usuário empresa contempla as seguintes funcionalidade:
+
+- RF-009: O sistema deve oferecer um menu adicional que permita ao usuário (empresa) visualizar as formas de fidelização que ele pode oferecer ao cliente.
+- RNF-002: O site deverá ser responsivo, permitindo a visualização em um celular de forma adequada.
 
 
 
