@@ -6,7 +6,7 @@ Tela Home Page, Funcionalidade RF-01, RF-06 e RNF-02
 
 Na tela home page, foi utilizado HTML e CSS....Nela temos um menu categorizado em "Para Empresas" onde explica para a empresa o objetivo do FideOn, "Vantagens" que mostra a ambos usuários as vantagens de ter o FideOn, "Sobre" mostra os dados dos desenvolvedores do sistema, "Veja no Mapa" traz a localização, através de uma API do MAPS, das empresas que usam o FideOn e o botão "Login" para que o usuário entre na sua página de navegação. Ao clicar nos itens de menu superior, o conteúdo é mostrado na própria página. Toda essa descrição corresponde a funcionalidade RF-01.
 
-Para a RNF-02, foi utilizado...(descrever o codio??) para deixar a home page responsiva.
+Para a RNF-02, foi utilizado...(descrever o codigo??) para deixar a home page responsiva.
 
 Para a RF-06, foi utilizado o campo "Sobre" para manter os dados do mantenedor do sistema.
 
