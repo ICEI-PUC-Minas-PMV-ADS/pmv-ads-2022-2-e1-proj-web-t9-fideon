@@ -35,6 +35,7 @@ Com base na análise das personas, foram identificadas as seguintes histórias d
 | Açai Legal         | Diferentes ferramentas de fidelização disponíveis na plataforma. | Para usar a que mais atende determinado comportamento do meu público, de acordo com a época. |
 | Açai Legal         | Uma maneira de compartilhar um benefício adquirido. | Para que o cliente compartilhe e mais pessoa vejam o meu negócio. |
 | Açai Legal         | Categorização de clientes. | Oferecer benefícios de acordo com a frequência de compra do cliente. |
+| Açai Lega | Separação dos clientes por idade e genero | Para identificar qual é o grupo que mais compra na empresa.|
 
 ## Requisitos
 
@@ -55,6 +56,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-009| O sistema deve oferecer um menu adicional que permita ao usuário (empresa) visualizar as formas de fidelização que ele pode oferecer ao cliente. | MÉDIA |
 |RF-010| O sistema deve permitir que usuários possam comentar sobre as empresas. | BAIXA |
 |RF-011| O sistema deve permitir que o usuário (empresa) categorize seus clientes em forma de "bronze, prata e ouro". | MÉDIA |
+|RF-012| O sistema deve categorizar os clientes das empresas por genero e idade (seja por relatório ou dashboard na tela inicial| MEDIA |
 
 ### Requisitos não Funcionais
 
