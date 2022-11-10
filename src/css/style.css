@@ -82,6 +82,7 @@ nav ul li a {
     color: #FFFFFF;
     margin-bottom: 2.5em;
     max-width: 1000px;
+    justify-content: space-between;
 }
 
 
