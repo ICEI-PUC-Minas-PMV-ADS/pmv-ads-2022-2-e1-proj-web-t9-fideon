@@ -52,7 +52,7 @@ A tela de cadastro usuário cliente é utilizada somente pelo cliente da empresa
 
 **Tela Cadastro**
 
-Imagem
+![Figura 8 - Formulario Cadastro](img/form-cadastro.PNG)
 
 **Funcionalidades Contempladas**
 
