@@ -21,18 +21,20 @@ Na tela inicial, temos um menu categorizado (menu) em "Para Empresas" onde expli
 
 
 **Tela Inicial - Veja no Mapa**
-![Figura 3 - Tela Inicial - Veja no Mapa](img/menu-vejamapa.PNG)
+![Figura 4 - Tela Inicial - Veja no Mapa](img/menu-vejamapa.PNG)
 
 **Tela Inicial - Sobre**
-![Figura 3 - Tela Inicial - Sobre](img/menu-sobre.PNG)
+![Figura 5 - Tela Inicial - Sobre](img/menu-sobre.PNG)
 
 **Tela Inicial - Login**
 
 O login está por popup, ou seja, quando o usuário clica para logar, o formulário é aberto na própria página.
 
-Imagem.
+![Figura 6 - Tela Inicial - Login](img/tela-loginpopup.PNG)
 
 Código utilizado para o Popup:
+
+![Figura 7 - Codigo Popup](img/popup.PNG)
 
 **Funcionalidades Contempladas**
 
