@@ -21,12 +21,10 @@ Na tela inicial, temos um menu categorizado (menu) em "Para Empresas" onde expli
 
 
 **Tela Inicial - Veja no Mapa**
-
-Aqui vai vir uma imagem
+![Figura 3 - Tela Inicial - Veja no Mapa](img/menu-vejamapa.PNG)
 
 **Tela Inicial - Sobre**
-
-Aqui vai vir uma imagem
+![Figura 3 - Tela Inicial - Sobre](img/menu-sobre.PNG)
 
 **Tela Inicial - Login**
 
