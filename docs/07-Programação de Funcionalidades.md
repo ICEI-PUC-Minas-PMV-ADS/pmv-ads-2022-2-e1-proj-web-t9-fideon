@@ -40,7 +40,7 @@ Código utilizado para o Popup:
 
 A página contempla as Funcionalidades: 
 
-- RF-001: O site deve apresentar na página principal um breve relato do objetivo do sitema, um menu categorizado com"Para empresas", "Vantagens" e um botão de login.
+- RF-001: O site deve apresentar na página principal um breve relato do objetivo do sistema, um menu categorizado com"Para empresas", "Vantagens" e um botão de login.
 - RF-006: O site deve permitir visualizar as informações de contatos do amntedor do site.
 - RNF-002: O site deverá ser responsivo, permitindo a visualização em um celular de forma adequada.
 
@@ -48,7 +48,7 @@ A página contempla as Funcionalidades:
 
 A tela de cadastro usuário cliente é utilizada somente pelo cliente da empresa ter acesso ao sistema FideOn e visualizar, a priori, as empresas da sua região e os beneficios que elas oferecem.
 
-É um formula´rio Simples, onde a pessoa preenche seus dados pessoaias, como Nome, Sobrenome, E-mail, CPF e genêro.
+É um formulário Simples, onde a pessoa preenche seus dados pessoais, como Nome, Sobrenome, E-mail, CPF e genêro.
 
 **Tela Cadastro**
 
@@ -108,7 +108,7 @@ A tela usuário cliente é onde o cliente da empresa visualizará tudo o que as 
 Tambem temos uma menu dopdraw superior, onde conterá informações do usuário logado, como:
 
 - Número do Cliente: número de identificação do cliente, oferecido pelo sistema;
-- Endereço: endereço da empresa:
+- Edição de Perfil: editar dados pessoais;
 - Sair: Botão para deslogar do sistema.
 
 **Tela Usuário Empresa**
@@ -119,7 +119,6 @@ Aqui virá uma imagem
 
 A tela usuário empresa contempla as seguintes funcionalidade:
 
-- RF-00
 - RNF-002: O site deverá ser responsivo, permitindo a visualização em um celular de forma adequada.
 
 
