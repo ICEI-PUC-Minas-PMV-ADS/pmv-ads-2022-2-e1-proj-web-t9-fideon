@@ -1,14 +1,7 @@
 body{
     font-family: 'Nunito', sans-serif;
 }
-.menuSuperior{
-    height:100%;
-    width: 300;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: #33605a;
-}
+
 .menuOculto{
     height: 100%;
     width: 0;
@@ -59,8 +52,9 @@ body{
     margin-left: 50px;
 }
 #principal{
-    padding: 16px;
+    padding: 5px;
     transition: margin-left 0.5s;
+    background: #91a398;
 }
 
 /*responsividade*/
@@ -69,51 +63,40 @@ body{
     .menuOculto a{font-size: 18px;}
 }
 
-*{
-    margin: 0;
-    padding: 0;
-    font-family: 'Poppins', sans-serif;
-    box-sizing: border-box;
-}
-.hero{
+/*css menu superior*/
+#principal .hero{ /*todo o bloco menu superior*/
     width: 100%;
-    min-height: 100vh;
-    background: #eceaff;
-    color: #525252;
+    min-height: 100vh ;
+    background: #91a398;
+    color: #888;
 }
-nav{
-    background: #1a1a1a;
+.hero nav{ /*bloco usuario*/
     width: 100%;
     padding: 10px 10px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     position: relative;
+}
 
-}
-.logo{
-    width: 120px;
-}
 .user-pic{
     width: 40px;
     border-radius: 50%;
     cursor: pointer;
     margin-left: 30px;
-
 }
-nav ul{
+
+.hero nav ul{
     width: 100%;
     text-align: right;
 }
-nav ul li{
-    display: inline-block;
-    list-style: none;
-    margin: 10px 20px;
+
+.sub-menu{
+    background: #33605a;
+    padding: 20px;
+    margin: 10px;
 }
-nav ul li a{
-    color: #fff;
-    text-decoration: none;
-}
+
 .sub-menu-wrap{
     position: absolute;
     top: 100%;
@@ -126,8 +109,9 @@ nav ul li a{
 .sub-menu-wrap.open-menu{
     max-height: 400px;
 }
+
 .sub-menu{
-    background: #fff;
+    background: #33605a;
     padding: 20px;
     margin: 10px;
 }
@@ -135,6 +119,7 @@ nav ul li a{
     display: flex;
     align-items: center;
 }
+
 .user-info h3{
     font-weight: 500;
 }
@@ -143,30 +128,33 @@ nav ul li a{
     border-radius: 50%;
     margin-right: 15px;
 }
+
 .sub-menu hr{
     border: 0;
     height: 1px;
     width: 100%;
-    background: #ccc;
+    background: #91a398;
     margin: 15px 0 10px;
 }
 .sub-menu-link{
     display: flex;
     align-items: center;
     text-decoration: none;
-    color: #525252;
+    color: #888;
     margin: 12px 0;
 }
+
 .sub-menu-link p{
     width: 100%;
 }
 .sub-menu-link img{
     width: 40px;
-    background: #e5e5e5;
+    background: #91a398;
     border-radius: 50%;
     padding: 8px;
     margin-right: 15px;
 }
+
 .sub-menu-link span{
     font-size: 22px;
     transition: transform 0.5s;
@@ -177,3 +165,7 @@ nav ul li a{
 .sub-menu-link:hover p{
     font-weight: 600;
 }
+
+
+
+
