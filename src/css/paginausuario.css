@@ -54,7 +54,7 @@ body{
 #principal{
     padding: 5px;
     transition: margin-left 0.5s;
-    background: #91a398;
+    background: #fff;
 }
 
 /*responsividade*/
@@ -67,7 +67,7 @@ body{
 #principal .hero{ /*todo o bloco menu superior*/
     width: 100%;
     min-height: 100vh ;
-    background: #91a398;
+    background: #fff;
     color: #888;
 }
 .hero nav{ /*bloco usuario*/
