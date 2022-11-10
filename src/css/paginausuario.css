@@ -54,7 +54,7 @@ body{
 #principal{
     padding: 5px;
     transition: margin-left 0.5s;
-    background: #91a398;
+    background: #fff;
 }
 
 /*responsividade*/
@@ -166,6 +166,14 @@ body{
     font-weight: 600;
 }
 
-
+.hero nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+.hero nav ul li a{
+    color: #fff;
+    text-decoration: none;
+}
 
 
