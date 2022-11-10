@@ -43,7 +43,42 @@
     <section id="principal"> <!--todo conteudo da página virá dentro deste container-->
         <span style="font-size:30px;cursor:pointer" onclick="abrirNav()">&#9776;
         </span> <!--o &#9776 são as 3 barrinhas do menu-->
-        <p>FideOn</p>
+        <img src="./Imgmenu/user.png" class="user-pic" onclick="toggleMenu()">
+        
+        <!--bloco menu superior-->
+        <div class="hero">
+            <nav>    
+                <div class="sub-menu-wrap" id="submenu">
+                    <div class="sub-menu">
+                        <div class="user-info">
+                            <img src="./Imgmenu/user.png">
+                            <h2>Usuário</h2>
+                        </div>
+    
+                        <a href="#" class="sub-menu-link">
+                            <img src="./Imgmenu/profile.png">
+                            <p>Edição Perfil</p>
+                            <span>></span>
+                        </a>
+                        <a href="#" class="sub-menu-link">
+                            <img src="./Imgmenu/setting.png">
+                            <p>Configurações e Privacidade</p>
+                            <span>></span>
+                        </a>
+                        <a href="#" class="sub-menu-link">
+                            <img src="./Imgmenu/help.png">
+                            <p>Ajuda e Suporte</p>
+                            <span>></span>
+                        </a>
+                        <a href="#" class="sub-menu-link">
+                            <img src="./Imgmenu/logout.png">
+                            <p>Sair</p>
+                            <span>></span>
+                        </a>
+                    </div>
+                </div>
+            </nav>
+        </div>
     </section>
 
     <script type="text/javascript" src="js/paginausuario.js"></script>
