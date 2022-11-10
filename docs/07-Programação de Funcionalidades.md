@@ -76,16 +76,14 @@ A tela usuário empresa é onde a empresa visualizará tudo o que o sistema Fide
 
 Tambem temos uma menu dopdraw superior, onde conterá informações do usuário logado, como:
 
-- Serviço Prestado: Aqui virá a atividade que a empresa exerce;
-- Telefone: telefone de contato da empresa;
-- CNPJ: Cadastro Nacional de Pessoa Juridixa da empresa;
-- Número do Cliente: número de identificação do cliente, oferecido pelo sistema;
-- Endereço: endereço da empresa:
+- Edição de Perfil: editar dados pessoais;
+- Configurações e Privacidade: Configurar dados do usuario.
+- Ajuda e Suporte: Dados para contato com o suporte.
 - Sair: Botão para deslogar do sistema.
 
 **Tela Usuário Empresa**
 
-Aqui virá uma imagem
+![Figura 9 - Usuario Empresa](img/tela-usuarioempresa.PNG)
 
 **Funcionalidades Contempladas**
 
@@ -107,13 +105,14 @@ A tela usuário cliente é onde o cliente da empresa visualizará tudo o que as 
 
 Tambem temos uma menu dopdraw superior, onde conterá informações do usuário logado, como:
 
-- Número do Cliente: número de identificação do cliente, oferecido pelo sistema;
 - Edição de Perfil: editar dados pessoais;
+- Configurações e Privacidade: Configurar dados do usuario.
+- Ajuda e Suporte: Dados para contato com o suporte.
 - Sair: Botão para deslogar do sistema.
 
 **Tela Usuário Empresa**
 
-Aqui virá uma imagem
+![Figura 10 - Usuario Cliente](img/tela-usuariocliente.PNG)
 
 **Funcionalidades Contempladas**
 
