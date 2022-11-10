@@ -99,8 +99,8 @@ A tela usuário empresa contempla as seguintes funcionalidade:
 A tela usuário cliente é onde o cliente da empresa visualizará tudo o que as empresas podem oferecer pra ele. Nela temos um menu lateral contendo: 
 
 - Inicio: que volta pra tela inicial da empresa;
-- Empresas: ;
-- Benefícios: ;
+- Empresas: aqui o usuário tem a opção "Onde encontrar?" para encontrar uma empresa que utiliza o FideOn e a opção "Minhas Empresas" para visualizar as empresas que ele ja possui beneficio;
+- Benefícios: aqui o usuário tem as opções "Beneficios Adquiridos" onde mostra o que ele ja possui como benefício, "Benefícios a Vencer" onde mostra o que está para vencer, "Solicitar" que permite ao usuário solicitar um cadastro de um benefício adquirido na empresa em que o mesmo não foi lançado e "Compartilhar Beneficio" permitindo que o usuário compartilhe nas redes sociais um benefício adquirido ;
 - Relatórios: O cliente vai conseguiR visualizar relatorios de Benefícios adquiridos;
 - Comentário: O cliente poderá realizar comentários a respeito da empresa que ele adquiriu um benefício;;
 - Atendimento: Aqui ficará os contatos para suporte ao sistema.
