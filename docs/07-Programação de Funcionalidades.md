@@ -120,17 +120,16 @@ A tela usuário empresa contempla as seguintes funcionalidade:
 
 - RNF-002: O site deverá ser responsivo, permitindo a visualização em um celular de forma adequada.
 
+# Outras Funcionalidades
 
-**Observação para construção desta etapa**
+**Cadastro de cliente dentro do Login Usuário Empresa**
 
-Implementação do sistema descritas por meio dos requisitos funcionais e/ou não funcionais. Deve relacionar os requisitos atendidos os artefatos criados (código fonte) além das estruturas de dados utilizadas e as instruções para acesso e verificação da implementação que deve estar funcional no ambiente de hospedagem.
+Aqui, o usuário empresa clica no menu lateral, submenu "Cadastro" e abre um formulário para ele cadastrar um novo cliente, caso este ainda não use o FideOn.
 
-Para cada requisito funcional, pode ser entregue um artefato desse tipo
+**Perfil do Cliente**
 
-> **Links Úteis**:
->
-> - [Trabalhando com HTML5 Local Storage e JSON](https://www.devmedia.com.br/trabalhando-com-html5-local-storage-e-json/29045)
-> - [JSON Tutorial](https://www.w3resource.com/JSON)
-> - [JSON Data Set Sample](https://opensource.adobe.com/Spry/samples/data_region/JSONDataSetSample.html)
-> - [JSON - Introduction (W3Schools)](https://www.w3schools.com/js/js_json_intro.asp)
-> - [JSON Tutorial (TutorialsPoint)](https://www.tutorialspoint.com/json/index.htm)
+Aqui o usuário empresa visualizará sua clientela dividida por genero e idade, para conseguir traçar as melhores estratégias de Marketing.
+
+**Comentários cliente**
+
+Aqui o usuário empresa vusializará os cometários relaizados por seus clientes.
