@@ -90,6 +90,7 @@ body{ /*quadrado maior do fundo, a tela cheia*/
     flex-wrap: wrap;
     justify-content: space-between;
     padding: 1rem 0;
+    grid-gap: 50px;
 }
 
 .input-box{/*bloco de inputs*/
@@ -97,6 +98,7 @@ body{ /*quadrado maior do fundo, a tela cheia*/
     flex-direction: column;
     margin-bottom: 1.1rem;
 }
+
 
 .input-box input{ /*local do input*/
     margin: 0.6rem 0;
