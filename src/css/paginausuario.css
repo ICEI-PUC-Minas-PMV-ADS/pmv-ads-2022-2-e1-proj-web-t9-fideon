@@ -166,6 +166,10 @@ body{
     font-weight: 600;
 }
 
-
+#principal .hero nav{
+    padding: 5px;
+    transition: margin-right 0.5s;
+    background: #91a398;
+}
 
 
