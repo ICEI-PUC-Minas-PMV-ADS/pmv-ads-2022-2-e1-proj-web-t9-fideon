@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/cadclientes.css">
+    <title>Cadastro Cliente</title>
+</head>
+<body>
+    <header>
+        <h1 class="header-title">Cadastro de Clientes</h1>
+    </header>
+    <main>
+        <button type="button" class="button blue mobile" id="cadastrarCliente">Cadastrar Cliente</button>
+        <table class="records">
+          <thead>
+            <tr>
+                <th>Nome Completo</th>
+                <th>Data de Nascimento</th>
+                <th>CPF</th>
+                <th>E-mail</th>
+                <th>Gênero</th>
+                <th>Ação</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+                <td>Junia Marina Campos</td>
+                <td>20/03/1996</td>
+                <td>021.722.134-22</td>
+                <td>juniacamposjc@gmail.com</td>
+                <td>Feminino</td>
+                <td>
+                    <button type="button" class="button green">Editar</button>
+                    <button type="button" class="button red">Excluir</button>
+                </td>
+            </tr>
+            <tr>
+                <td>Camila Almeida Campos</td>
+                <td>27/10/1985</td>
+                <td>018.865.247-55</td>
+                <td>camilaalmeida@gmail.com</td>
+                <td>Feminino</td>
+                <td>
+                    <button type="button" class="button green">Editar</button>
+                    <button type="button" class="button red">Excluir</button>
+                </td>
+            </tr>
+            <tr>
+                <td>Julio Cesar Nonato Campos</td>
+                <td>20/03/1996</td>
+                <td>022.822.135-33</td>
+                <td>juliocamposjc@gmail.com</td>
+                <td>Masculino</td>
+                <td>
+                    <button type="button" class="button green">Editar</button>
+                    <button type="button" class="button red">Excluir</button>
+                </td>
+            </tr>
+            <tr>
+                <td>Rafael Alexandre</td>
+                <td>10/11/1989</td>
+                <td>019.754.134-22</td>
+                <td>rafaelcamposrc@gmail.com</td>
+                <td>Maculino</td>
+                <td>
+                    <button type="button" class="button green">Editar</button>
+                    <button type="button" class="button red">Excluir</button>
+                </td>
+            </tr>
+          </tbody>
+        </table>
+        <div class="modal" id="modal">
+            <div class="modal-content">
+                <header class="modal-header">
+                    <h2>Novo Cliente</h2>
+                    <span class="modal-close" id="modalClose">&#10006;</span>
+                </header>
+                <form class="modal-form">
+                    <input type="text" class="modal-field" placeholder="Nome do Cliente">
+                    <input type="email" class="modal-field" placeholder="E-mail">
+                    <input type="text" class="modal-field" placeholder="CPF">
+                    <input type="date" class="modal-field" placeholder="__/__/__">
+                </form>
+                <footer class="modal-footer">
+                    <button class="button green">Salvar</button>
+                    <button class="button blue">Cancelar</button>
+                </footer>
+            </div>
+        </div>
+    </main>
+    <footer>
+        
+    </footer>
+    <script src="./js/cadclientes.js"></script>
+</body>
+</html>
