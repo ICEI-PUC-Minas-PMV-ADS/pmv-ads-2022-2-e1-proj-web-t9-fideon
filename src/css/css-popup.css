@@ -5,8 +5,9 @@
 button{ /*botão login*/
     margin: 10px auto;
     background: #91a398; /*cor backgroud palavra login*/
-    color: #000000; /*cor letra botão login */
+    color: #fcf9f9; /*cor letra botão login */
     border-radius: 8px; /*borda botão login*/
+    border-color: #fcf9f9;
     cursor: pointer;
     padding: 6px 10px;
 }
