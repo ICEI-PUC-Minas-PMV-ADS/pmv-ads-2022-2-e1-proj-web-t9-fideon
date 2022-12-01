@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/css-popup.css">
+    <link rel="stylesheet" href="./css/map.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FideOn</title>
+</head>
+<body>
+    
+    <nav id="menu">
+        <a href="index.html">FideOn</a>
+        <ul>
+            <li><a href="#empresa">Para Empresas</a></li>
+            <li><a href="#vantagens">Vatangens</a></li>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#map">Veja no mapa</a></li>
+            <div id="center">
+                <button id="show-login">Login</button>
+            </div>    
+        </ul>
+    </nav>
+        
+    <!– BLOCO RESPONSÁVEL PELO POPUP DE LOGIN –> 
+    <div class="popup-wrapper">
+        <div class="popup">            
+
+            <div class="popup-content">
+                <h2>Login</h2>
+                <input type="text" id="email" placeholder="Email">
+            </div>
+            <div class="popup-content">
+                <input type="password" id="password" placeholder="Enter password">
+            </div>
+            <div class="popup-content">
+                <input type="checkbox" id="remember-me">
+                <label for="remember-me">Remember me</label>
+            </div>
+            <div class="popup-content">
+                <button>Login</button>
+            </div>    
+                    
+            <div class="pop-link">
+                <a href="recuperação.html">Forgot Password?</a>
+                <a href="indexform.html">Criar conta</a>
+            </div>
+        </div>
+        
+    </div>
+    
+    <section id="servicos">
+
+        <div id="empresa">
+            <img src="./img/para-empresas.png" alt="para empresas">
+            <p>Um nova maneira de fidelizar clientes. <br><br> Controle de beneficios gerados, 
+                categorização de clientes, uma forma mais rápida de se conectar a ele.<br><br>
+                e muito mais...<br><br>
+                Solicite sua demonstração e orçamento.
+            </p>
+        </div>
+        
+        <div id="vantagens">
+            <img src="./img/vantagens.png" alt="vantagens">
+            <p>Uma gestão melhor dos benefícios para você e seu cliente<br><br>
+                Sistema de pontos com mais controle<br><br>
+                Menos chances de deixar vencer um benefício adquirido.</p>
+        </div>
+
+        <div class="mapsAPI">
+
+            <div id="map">
+                <script
+                src="https://maps.googleapis.com/maps/api/js?key=AIzaSyARz3y_KPNjmvVuwRtjk6pVVGGK5pznSg8&callback=initMap&v=weekly"
+                defer></script>
+            </div>
+                
+        </div>
+
+    </section>
+    
+    <nav id="sobre">
+        <ul>
+            <li>Criadores
+                <br>Gustavo Diniz
+                <br>Junia Campos
+                <br>Ana Flávia
+                <br>Kennedy de Oliveira
+            </li>
+            <li>Dados para Contato:
+                <br>Email: fideon@contatofideon
+                <br>Telefone: (31) 3329-5025
+            </li>
+        </ul> 
+    </nav>
+    
+    <script type="text/javascript" src="./js/jse.js"></script>
+</body>
+</html>

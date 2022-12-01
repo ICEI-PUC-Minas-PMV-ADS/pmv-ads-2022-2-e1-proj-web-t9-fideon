@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/app.js"></script>
+    <title>Usuário Cliente</title>
+</head>
+<body>
+    <div class="menu">                    
+        <ul>      
+            <li><a href="index-cliente.html" class="logo">FideOn</a></li>
+            <li><a href="index.html">Sair</a></li>       
+            <li>
+                <a href="#">Empresas</a>
+                <ul class="dropdown">
+                    <li><a href="#" onclick="ExibirEmpresas()">Lista de empresas</a></li>
+                    <li><a href="#" onclick="OndeEncontrar()">Onde Encontar?</a></li>
+                    <li><a href="#" onclick="ExibirFavorito()">Meus favoritos</a></li>
+                </ul>    
+            </li>
+
+            <li>
+                <a href="#">Benefícios</a>
+                <ul class="dropdown">
+                    <li><a href="#" onclick="ExibirBeneficios()">Benefícios Adquiridos</a></li>
+                    <li><a href="https://www.instagram.com/" target="_blank">Compartilhar Benefício</a></li>
+                </ul>
+            </li>
+            
+            <li>
+                <a href="#" onclick="ExibirFaleConosco()">Fale com a FideOn</a>
+            </li>              
+        </ul>
+    </div>
+
+    <div class="corpo_json">
+        <div id="tela">Bem vindo! Os dados selecionados serão visiveis nesta tela.</div>
+        <div id="tela2"></div>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,234 @@
+body{
+    font-family: Nunito, sans-serif;
+    color: #1c1c1c;
+    background-color: #e9e0d1;
+}
+
+h1,h2,h3{
+    font-family: Playfair Display, sans-serif;
+    color: #2d5751;
+}
+
+/* MENU PRINCIPAL EM DROPDOWN */
+.menu{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background: #2d5751;
+    font-size: 24px;
+}
+
+.menu a{
+    text-decoration: none; 
+}
+
+.menu ul{    
+    list-style: none;
+    padding-left: 0;
+    margin: 0;    
+} 
+
+.menu li{    
+    float: left;
+    padding: 1rem;
+    position: relative;
+    transition-duration: 0.3s;
+    background: #2d5751;
+}
+
+.menu li a{
+    color: #fff;
+}
+
+.menu li:hover{
+    background: rgb(0, 58, 39);
+    cursor: pointer;
+}
+
+.menu ul li ul{
+    visibility: hidden;
+    opacity: 0;
+    min-width: 5rem;
+    position: absolute;
+    transition: all 0.3s ease;
+    margin-top: 1rem;
+    left: 0;
+    display: none;
+}
+
+.menu ul li:hover > ul,
+ul li:focus-within > ul,
+ul li ul:hover{
+    visibility: visible;
+    opacity: 1;
+    display: block;
+}
+
+.menu ul li ul li{
+    clear: both;
+    width: 150%;
+}
+
+/* LOGIN */
+
+.login{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 400px;
+}
+
+.login h2{
+    color: #e9e0d1;
+}
+
+.login a{
+    text-decoration: none;
+    color: #e9e0d1;
+}
+
+.bloco-login{
+    width: 220px;
+    padding: 0.8rem 1.2rem;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 1px 1px 6px #1c1c1c;
+    background-color: #2d5751;
+}
+
+.bloco-login input{
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    padding: 0.8rem 1.2rem;
+    border: none;
+    box-shadow: 1px 1px 6px #1c1c1c;
+    margin: 0.6rem 0;
+}
+
+.bloco-login input:hover{
+    background-color: #b2b6b5;
+    color: #e9e0d1;
+}
+
+.empresa{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    background-color: #2d5751;
+    color: #e9e0d1;
+    font-size: 20px;
+}
+
+.vantagens{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    color: #02382c;
+    font-size: 20px;
+}
+
+/* CADASTRO */
+
+#cadastro{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #2d5751;
+}
+
+#cadastro input{
+    margin: 0.6rem 0;
+    padding: 0.8rem 1.2rem;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 1px 1px 6px #1c1c1c;
+}
+
+#cadastro input:hover{
+    background-color: #b2b6b5;
+    color: #e9e0d1;
+}
+
+.img-cadastro{
+    border-radius: 10px;
+}
+
+.dados-cadastro{
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* SOBRE */
+
+#sobre{
+    padding: 10px 10px 20px 20px;
+    background-color: #e9e0d1;
+    color: #2d5751;
+    font-size: 20px;
+}
+
+#sobre ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#sobre ul li{
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* TELA JSON */
+
+.corpo_json{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    margin-top: 20px;
+    height: 400px;
+    color: #02382c
+}
+
+#tela{
+    padding: 0.8rem 1.2rem;
+    width: fit-content;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+
+#tela2{
+    padding: 0.8rem 1.2rem;
+    width: fit-content;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+
+@media screen and (min-width: 768px){
+
+    /* nav */
+    .menu {
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+
+    .menu ul{
+        flex-direction: row;
+        width: 70%;
+    }
+
+    /* rodapé */ 
+
+    #sobre h2, #sobre p{
+        width: 100%;
+    }
+}

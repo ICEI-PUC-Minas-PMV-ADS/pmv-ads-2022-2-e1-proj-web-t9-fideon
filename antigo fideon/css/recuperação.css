@@ -1,0 +1,147 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Nunito, sans-serif;
+}
+
+body{ /*quadrado maior do fundo, a tela cheia*/
+    width: 100%; 
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #91a398;
+}
+
+p{
+    font-size: large;
+    width: 120%;
+    float: left;
+    padding: 20px;
+    margin: 0;
+}
+.container{ /*bloco de cadastro*/
+    width: 90%;
+    height: 90vh;
+    display: flex;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, .212); /*sombra do bloco de cadatro*/
+}
+.form-image{ /*bloco imagem*/
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #33605a;
+    padding: 1rem;
+}
+
+.form-image img { /*tamanho da imagem no bloco*/
+    width: 31rem;
+}
+
+.form{ /*bloco cadastra-se*/
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #e9e0d1;
+    padding: 3rem;
+}
+
+.form-header{ /*cabeçalho do formulario espaço entre esqueci a senha e voltar*/
+    margin-bottom: 3rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.login-button{ /*botão voltar*/
+    display: flex;
+    align-items: center;
+}
+
+.login-button button{ /*botão voltar*/
+    border: none;
+    background-color: #91a398;
+    padding: 0.4rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.login-button button:hover{ /*quando passa o mouse por cima, fica outra cor*/
+    background-color: #33605a;
+}
+
+.login-button button a{ /*palavra voltar*/
+    text-decoration: none;
+    font-weight: 500;
+    color: #fff;
+}
+
+.form-header h1::after{ /*risco de baixo do esqueci a senha*/
+    content:'';
+    display: block;
+    width: 5rem;
+    height: 0.3rem;
+    background-color: #33605a;
+    margin: 0 auto;
+    position: absolute;
+    border-radius: 10px;
+}
+
+.enviar{ /*botão enviar*/
+    border: none;
+    background-color: #91a398;
+    padding: 0.4rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    size: 5px;
+}
+
+.enviar:hover{ /*quando passa o mouse por cima, fica outra cor*/
+    background-color: #33605a;
+}
+
+
+.enviar a{ /*palavra enviar*/
+    text-decoration: none;
+    font-weight: 100;
+    color: #fff;
+}
+
+
+/*para deixar a página responsiva*/
+@media screen and (max-width: 1330px) {
+    .form-image{
+        display: none;
+    }
+    .container{
+        width: 50%;
+    }
+    .form{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 1064px){
+    .container{
+        width: 90%;
+        height: auto;
+    }
+    .input-group{
+        flex-direction: column;
+        overflow-y: scroll;
+        flex-wrap: nowrap;
+        max-height: 10rem;
+        padding-right: 5rem;
+    }
+    .gender-inputs{
+        margin-top: 2rem;
+    }
+    .gender-group{
+        flex-direction: column;
+    }
+    .gender-input{
+        margin-top: 0.5rem;
+    }
+}

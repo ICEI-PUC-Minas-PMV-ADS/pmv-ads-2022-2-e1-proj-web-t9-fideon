@@ -1,0 +1,114 @@
+/* CORPO */
+
+body{
+    font-family: Nunito, sans-serif;
+    color: #1c1c1c;
+}
+
+h1, h2,h3{
+    font-family: Playfair Display, sans-serif;
+    color: #000000;
+}
+
+/* Menu nav */
+
+#menu{
+    width: 100%;
+}
+
+nav{    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #33605a;
+}
+
+nav > a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 800;
+    font-size: 32px;
+    font-family: Playfair Display, sans-serif;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    width: 100%;
+}
+
+nav ul li{
+    text-align: center;
+    width: 100%;
+}
+
+nav ul li a {
+    display: inline-block;
+    padding: 10px 0;
+    width: 100%;
+    text-decoration: none;
+    color: #faf8f8;
+}
+
+/* servicos */ 
+
+
+#empresa{   
+    display: flex;
+    align-items: center;
+    background-color: #e9e0d1;
+}
+
+
+#vantagens{
+    display: flex;
+    align-items: center;
+    background-color: #91a398;
+}
+
+/* Rodapé */ 
+
+#sobre{    
+    padding: 10px 10px 20px 20px;
+    background-color:#33605a;
+    color: #FFFFFF;
+}
+
+
+#sobre h2{
+    color: #FFFFFF;
+    margin-bottom: 2.5em;
+    max-width: 1000px;
+    justify-content: space-between;
+}
+
+
+@media screen and (min-width: 768px){
+
+    /* nav */
+    nav {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    nav ul{
+        flex-direction: row;
+        width: 70%;
+    }
+
+    /* rodapé */ 
+
+    #sobre{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;        
+        margin: 0 auto;
+    }
+
+    #sobre h2, #sobre p{
+        width: 100%;
+    }
+}
