@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drop-down Profile Menu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="hero">
+        <nav>
+            <img src="images/fideon.png" class="fideon">
+            <img src="images/user.png" class="user-pic" onclick="toggleMenu()">
+
+           <div class="sub-menu-wrap" id="subMenu">
+            <div class="sub-menu">
+                <div class="user-info">
+                    <img src="images/user.png">
+                    <h2>Usuario</h2>
+                </div>
+                <hr>
+
+                <a href="#" class="sub-menu-link">
+                    <img src="images/profile.png">
+                    <p>Edição Perfil</p>
+                    <span>></span>
+                </a>
+                <a href="#" class="sub-menu-link">
+                    <img src="images/setting.png">
+                    <p>Configurações e privacidade</p>
+                    <span>></span>
+                </a>
+                <a href="#" class="sub-menu-link">
+                    <img src="images/help.png">
+                    <p>Ajuda e suporte</p>
+                    <span>></span>
+                </a>
+                <a href="#" class="sub-menu-link">
+                    <img src="images/logout.png">
+                    <p>Sair</p>
+                    <span>></span>
+                </a>
+            </div>
+           </div> 
+        </nav>
+    </div>   
+
+
+    <script>
+         let subMenu = document.getElementById("subMenu");
+
+         function toggleMenu(){
+            subMenu.classList.toggle("open-menu");
+         }
+
+    </script>
+
+</body>
+</html>
