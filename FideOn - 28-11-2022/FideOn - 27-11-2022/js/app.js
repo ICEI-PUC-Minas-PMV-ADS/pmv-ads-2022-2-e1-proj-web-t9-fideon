@@ -371,23 +371,4 @@ function ExibirComentarios(){
     tela2.innerHTML = textoHTML2;
 };
 
-function ExibirVencimento(){    
 
-    var textoHTML = '';
-    var textoHTML2 = '';
-
-    for ( let i = 0; i < Cadastro.length; i++){
-        textoHTML += '<br>'
-        textoHTML += Cadastro[i].beneficios + ' - ';
-        for (let j = 0; j <Cadastro[i].beneficios; j++)
-        {
-            textoHTML += '<br>'
-            textoHTML += Cadastro[i].beneficios[j].vencimento + ' - ';
-        }
-    };
-
-    var tela = document.getElementById('tela');
-    tela.innerHTML = textoHTML;
-    var tela2 = document.getElementById('tela2');
-    tela2.innerHTML = textoHTML2;
-};
