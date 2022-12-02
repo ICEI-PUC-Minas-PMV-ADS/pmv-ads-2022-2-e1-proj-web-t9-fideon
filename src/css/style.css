@@ -213,6 +213,67 @@ ul li ul:hover{
     
 }
 
+/*Recuperação senha*/
+
+.voltar-button{ /*botão voltar*/
+    display: flex;
+    align-items: center;
+}
+
+.voltar-button button{ /*botão voltar*/
+    border: none;
+    background-color: #91a398;
+    padding: 0.4rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.voltar-button button:hover{ /*quando passa o mouse por cima, fica outra cor*/
+    background-color: #33605a;
+}
+
+.voltar-button button a{ /*palavra enviar*/
+    text-decoration: none;
+    font-weight: 500;
+    color: #fff;
+}
+
+.enviar-button{ /*botão enviar*/
+    display: flex;
+    align-items: center;
+}
+
+.enviar-button button{ /*botão enviar*/
+    border: none;
+    background-color: #91a398;
+    padding: 0.4rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.enviar-button button:hover{ /*quando passa o mouse por cima, fica outra cor*/
+    background-color: #33605a;
+}
+
+.enviar-button button a{ /*palavra enviar*/
+    text-decoration: none;
+    font-weight: 500;
+    color: #fff;
+}
+
+.form input{
+    margin: 0.6rem 0;
+    padding: 0.8rem 1.2rem;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 1px 1px 6px #1c1c1c;
+}
+
+.form input:hover{
+    background-color: #b2b6b5;
+    color: #e9e0d1;
+
+
 @media screen and (min-width: 768px){
 
     /* nav */
