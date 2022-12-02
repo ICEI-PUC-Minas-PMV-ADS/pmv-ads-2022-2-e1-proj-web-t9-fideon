@@ -10,9 +10,7 @@ Projeto desenvolvido para a criação de um sistema com beneficios oferecidos a 
 
 ## Integrantes
 
-* André Luiz dos Santos Braga
 * Ana Flávia Gomes Mendes
-* Claudio Henrique Camelo da Cruz
 * Gustavo Silva Diniz
 * Junia Marina Campos
 * Kennedy de Oliveira Machado Pires
