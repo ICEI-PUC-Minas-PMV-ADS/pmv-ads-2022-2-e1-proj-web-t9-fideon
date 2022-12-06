@@ -180,29 +180,28 @@ var Empresas = [
 /* VALIDAR LOGIN */
 
 function validarLogin(){
-
+    
     var uniqueCliente = document.getElementById("uniqueID").value;
     var ClientePassword = document.getElementById("uniquePW").value;
-
+    
     for (let i = 0; i < Cadastro.length; i++){
         if(uniqueCliente === Cadastro[i].email && ClientePassword === Cadastro[i].senha){            
-            alert('Validar login!');     
+            alert('Validar login!');
             window.location.href = 'index-cliente.html';
-            return true;
-        }            
+            return;
+        }          
     }
 
     for (let i = 0; i < Empresas.length; i++){
         if(uniqueCliente === Empresas[i].email && ClientePassword === Empresas[i].senha){
-            alert('Validar login!');
-            window.location.href = 'index-empresa.html';
-            return true;
-        }            
+            alert('Validar login!');  
+            window.location.href = 'index-empresa.html';            
+            return;
+        }          
     }
 
-    alert('Usuário ou senha incorreto');
-    return false;
-
+    alert('invalido');
+    return;
 };
 
 function OndeEncontrar(){

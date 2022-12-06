@@ -33,11 +33,10 @@
         <div class="login">
             <div class="bloco-login">
                 <h2>Login Cliente</h2>
-                <form action="index-cliente.html" onsubmit="return validarLogin()" method="post" id="credenciais">
+                <form action="" onsubmit="validarLogin()" method="post" id="credenciais">
                     <input type="text" id="uniqueID" placeholder="email">
                     <input type="password" id="uniquePW" placeholder="Senha">
-                    <input type="submit" value="Login">
-                    
+                    <input type="button" value="Login" onclick="validarLogin()">                          
                 </form>
                 <a href="recuperacao.html">Forgot Password?</a>
             </div>    
