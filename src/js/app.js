@@ -1,201 +1,3 @@
-
-
-/* VALIDAR LOGIN */
-
-function validarLogin(){
-    
-    var uniqueCliente = document.getElementById("uniqueID").value;
-    var ClientePassword = document.getElementById("uniquePW").value;
-    
-    for (let i = 0; i < Cadastro.length; i++){
-        if(uniqueCliente === Cadastro[i].email && ClientePassword === Cadastro[i].senha){            
-            alert('Validar login!');
-            window.location.href = 'index-cliente.html';
-            return;
-        }          
-    }
-
-    for (let i = 0; i < Empresas.length; i++){
-        if(uniqueCliente === Empresas[i].email && ClientePassword === Empresas[i].senha){
-            alert('Validar login!');  
-            window.location.href = 'index-empresa.html';            
-            return;
-        }          
-    }
-
-    alert('invalido');
-    return;
-};
-
-function OndeEncontrar(){
-    
-    var textoHTML = 'Atualmente, temos parceiros localizados nos seguintes bairros de Belo Horizonte:<br>';
-    var textoHTML2 = '';
-
-    for (let i = 0; i < Empresas.length; i++){
-        textoHTML += '<br>';
-        textoHTML += Empresas[i].bairro;
-    }
-
-    var tela = document.getElementById('tela');
-    tela.innerHTML = textoHTML;
-    var tela2 = document.getElementById('tela2');
-    tela2.innerHTML = textoHTML2;
-
-}
-
-function ExibirFavorito(){
-
-    var textoHTML2 = '';
-    var textoHTML = 'Minha empresa FideOn favorita é ';
-    textoHTML += Cadastro[0].favorito;   
-
-    var tela = document.getElementById('tela');
-    tela.innerHTML = textoHTML;
-    var tela2 = document.getElementById('tela2');
-    tela2.innerHTML = textoHTML2;
-    
-};
-
-function ExibirBeneficios(){
-
-    var textoHTML = 'Seu rank é ';
-    var textoHTML2 = 'Atualmente, a FideOn está trabalhando em sistemas de ranqueamento.<br>' +
-    'Cliente Ouro: 20% desconto em toda a loja.<br>' +
-    'Cliente Prata: 15% desconto em toda a loja.<br>' +
-    'Cliente Bronze: 10% desconto em toda a loja.<br>';
-
-
-    switch(Cadastro[0].rank){
-        case 1:
-            textoHTML += 'Ouro';
-            break;
-        case 2:
-            textoHTML += 'Prata';
-            break;
-        case 3:
-            textoHTML += 'Bronze';
-            break;
-        default:
-            textoHTML += 'Invalido';
-            break;
-    }
-
-    var tela = document.getElementById('tela');
-    tela.innerHTML = textoHTML;
-
-    var tela2 = document.getElementById('tela2');
-    tela2.innerHTML = textoHTML2;
-
-};
-
-function ExibirPerfis(){
-
-    var textoHTML = 'Atualmente, nosso banco de dados consta com os seguintes clientes:<br><br>';
-    var textoHTML2 = '';
-
-    for ( let i = 0; i < Cadastro.length; i++){
-        textoHTML += '<br>'
-        textoHTML += Cadastro[i].nome + ' - ';
-        textoHTML += Cadastro[i].cidade + ' - ';
-        textoHTML += Cadastro[i].idade + ' anos - ';
-        textoHTML += Cadastro[i].email+ ' - ';
-        textoHTML += Cadastro[i].telefone;        
-        textoHTML += '<br>'
-    };
-
-    var tela = document.getElementById('tela');
-    tela.innerHTML = textoHTML;
-    var tela2 = document.getElementById('tela2');
-    tela2.innerHTML = textoHTML2;
-};
-
-function ExibirEmpresas(){
-    
-    var textoHTML = 'Confira abaixo nossas empresas parceiras!';
-    var textoHTML2 = '';
-
-    for ( let i = 0; i < Empresas.length; i++){
-        textoHTML += '<br><br><br>'
-        textoHTML += Empresas[i].nome + '<br>';
-        textoHTML += 'Endereço: ' + Empresas[i].endereço + '<br>';
-        textoHTML += 'Bairro: ' + Empresas[i].bairro + '<br>';
-        textoHTML += 'Telefone: ' + Empresas[i].telefone + '<br>' ;
-        textoHTML += 'Email: ' + Empresas[i].email + '<br>';
-
-        textoHTML += 'Comentários:'
-        for(let j = 0; j<Empresas[i].comentarios.length; j++)
-        {
-            textoHTML += '<br>'
-            textoHTML += Empresas[i].comentarios[j];
-        }
-    };
-
-    var tela = document.getElementById('tela');
-    tela.innerHTML = textoHTML;
-    var tela2 = document.getElementById('tela2');
-    tela2.innerHTML = textoHTML2;
-};
-
-function ExibirRank(){
-
-    var textoHTML = 'Os clientes, em ordem de ranqueamento, são:<br>';
-    var textoHTML2 = '';
-
-
-    for ( let j = 1; j <= 3; j++){            
-        for ( let i = 0; i < Cadastro.length; i++){
-                if(Cadastro[i].rank == j){
-                    textoHTML += '<br>'
-                    textoHTML += 'Nome: ' + Cadastro[i].nome + '  -  ';
-                    if(j==1)
-                        textoHTML += 'Rank: Ouro';
-                    else if(j==2)
-                        textoHTML += 'Rank: Prata';
-                    else if(j==3)
-                        textoHTML += 'Rank: Bronze';
-                    else
-                    textoHTML += 'Rank: Invalido';
-                }    
-            }        
-    };
-
-    var tela = document.getElementById('tela');
-    tela.innerHTML = textoHTML;
-    var tela2 = document.getElementById('tela2');
-    tela2.innerHTML = textoHTML2;
-};
-
-function ExibirFaleConosco(){
-    
-    
-
-}
-
-//daqui pra baixo, Junia diz que tentou fazer algo kkkk
-
-function ExibirComentarios(){
-
-    var textoHTML = '';
-    var textoHTML2 = '';
-
-    for ( let i = 0; i < Empresas.length; i++){
-        textoHTML += '<br><br><br>'
-        textoHTML += Empresas[i].nome;
-        for(let j = 0; j<Empresas[i].comentarios.length; j++)
-        {
-            textoHTML += '<br><br>'
-            textoHTML += Empresas[i].comentarios[j] + ' - ';
-        }
-    };
-
-    var tela = document.getElementById('tela');
-    tela.innerHTML = textoHTML;
-    var tela2 = document.getElementById('tela2');
-    tela2.innerHTML = textoHTML2;
-};
-
-
 var Cadastro = [
     {
         "nome":"Otávio das Neves",
@@ -374,3 +176,231 @@ var Empresas = [
         ]
     }
 ];
+
+/* VALIDAR LOGIN */
+
+function validarLogin(user){
+    
+    var uniqueCliente = document.getElementById("uniqueID").value;
+    var ClientePassword = document.getElementById("uniquePW").value;
+
+    
+    for (let i = 0; i < Cadastro.length; i++){
+        if(uniqueCliente === Cadastro[i].email && ClientePassword === Cadastro[i].senha){            
+            alert('Validar login!');
+            userIndex(i);
+            window.location.href = 'index-cliente.html';
+            return user;
+        }          
+    }
+
+    for (let i = 0; i < Empresas.length; i++){
+        if(uniqueCliente === Empresas[i].email && ClientePassword === Empresas[i].senha){
+            alert('Validar login!'); 
+            window.location.href = 'index-empresa.html';            
+            return;
+        }          
+    }
+
+    alert('invalido');
+    return;
+};
+
+function userIndex(num){
+    return num;
+}
+
+function Welcome1(){
+
+    
+
+    var textoHTML = 'Bem vindo, ' + Cadastro[0].nome + '!!' +
+    '<br>' +
+    'No menu acima, você pode visualizar seus dados. Fique a vontade.';
+    var textoHTML2 = '';
+
+
+    var tela = document.getElementById('tela');
+    tela.innerHTML = textoHTML;
+    var tela2 = document.getElementById('tela2');
+    tela2.innerHTML = textoHTML2;
+}
+
+function Welcome2(){
+
+    var textoHTML = 'Bem vindo, ' + Empresas[0].nome + '!!' +
+    '<br>' +
+    'No menu acima, você pode visualizar seus dados. Fique a vontade.';
+    var textoHTML2 = '';
+
+
+    var tela = document.getElementById('tela');
+    tela.innerHTML = textoHTML;
+    var tela2 = document.getElementById('tela2');
+    tela2.innerHTML = textoHTML2;
+}
+
+function OndeEncontrar(){
+    
+    var textoHTML = 'Atualmente, temos parceiros localizados nos seguintes bairros de Belo Horizonte:<br>';
+    var textoHTML2 = '';
+
+    for (let i = 0; i < Empresas.length; i++){
+        textoHTML += '<br>';
+        textoHTML += Empresas[i].bairro;
+    }
+
+    var tela = document.getElementById('tela');
+    tela.innerHTML = textoHTML;
+    var tela2 = document.getElementById('tela2');
+    tela2.innerHTML = textoHTML2;
+
+}
+
+function ExibirFavorito(){
+
+    var textoHTML2 = '';
+    var textoHTML = 'Minha empresa FideOn favorita é ';
+    textoHTML += Cadastro[user].favorito;   
+
+    var tela = document.getElementById('tela');
+    tela.innerHTML = textoHTML;
+    var tela2 = document.getElementById('tela2');
+    tela2.innerHTML = textoHTML2;
+    
+};
+
+function ExibirBeneficios(){
+
+    var textoHTML = 'Seu rank é ';
+    var textoHTML2 = 'Atualmente, a FideOn está trabalhando em sistemas de ranqueamento.<br>' +
+    'Cliente Ouro: 20% desconto em toda a loja.<br>' +
+    'Cliente Prata: 15% desconto em toda a loja.<br>' +
+    'Cliente Bronze: 10% desconto em toda a loja.<br>';
+
+
+    switch(Cadastro[user].rank){
+        case 1:
+            textoHTML += 'Ouro';
+            break;
+        case 2:
+            textoHTML += 'Prata';
+            break;
+        case 3:
+            textoHTML += 'Bronze';
+            break;
+        default:
+            textoHTML += 'Invalido';
+            break;
+    }
+
+    var tela = document.getElementById('tela');
+    tela.innerHTML = textoHTML;
+
+    var tela2 = document.getElementById('tela2');
+    tela2.innerHTML = textoHTML2;
+
+};
+
+function ExibirPerfis(){
+
+    var textoHTML = 'Atualmente, nosso banco de dados consta com os seguintes clientes:<br><br>';
+    var textoHTML2 = '';
+
+    for ( let i = 0; i < Cadastro.length; i++){
+        textoHTML += '<br>'
+        textoHTML += Cadastro[i].nome + ' - ';
+        textoHTML += Cadastro[i].cidade + ' - ';
+        textoHTML += Cadastro[i].idade + ' anos - ';
+        textoHTML += Cadastro[i].email+ ' - ';
+        textoHTML += Cadastro[i].telefone;        
+        textoHTML += '<br>'
+    };
+
+    var tela = document.getElementById('tela');
+    tela.innerHTML = textoHTML;
+    var tela2 = document.getElementById('tela2');
+    tela2.innerHTML = textoHTML2;
+};
+
+function ExibirEmpresas(){
+    
+    var textoHTML = 'Confira abaixo nossas empresas parceiras!';
+    var textoHTML2 = '';
+
+    for ( let i = 0; i < Empresas.length; i++){
+        textoHTML += '<br><br><br>'
+        textoHTML += Empresas[i].nome + '<br>';
+        textoHTML += 'Endereço: ' + Empresas[i].endereço + '<br>';
+        textoHTML += 'Bairro: ' + Empresas[i].bairro + '<br>';
+        textoHTML += 'Telefone: ' + Empresas[i].telefone + '<br>' ;
+        textoHTML += 'Email: ' + Empresas[i].email + '<br>';
+
+        textoHTML += 'Comentários:'
+        for(let j = 0; j<Empresas[i].comentarios.length; j++)
+        {
+            textoHTML += '<br>'
+            textoHTML += Empresas[i].comentarios[j];
+        }
+    };
+
+    var tela = document.getElementById('tela');
+    tela.innerHTML = textoHTML;
+    var tela2 = document.getElementById('tela2');
+    tela2.innerHTML = textoHTML2;
+};
+
+function ExibirRank(){
+
+    var textoHTML = 'Os clientes, em ordem de ranqueamento, são:<br>';
+    var textoHTML2 = '';
+
+
+    for ( let j = 1; j <= 3; j++){            
+        for ( let i = 0; i < Cadastro.length; i++){
+                if(Cadastro[i].rank == j){
+                    textoHTML += '<br>'
+                    textoHTML += 'Nome: ' + Cadastro[i].nome + '  -  ';
+                    if(j==1)
+                        textoHTML += 'Rank: Ouro';
+                    else if(j==2)
+                        textoHTML += 'Rank: Prata';
+                    else if(j==3)
+                        textoHTML += 'Rank: Bronze';
+                    else
+                    textoHTML += 'Rank: Invalido';
+                }    
+            }        
+    };
+
+    var tela = document.getElementById('tela');
+    tela.innerHTML = textoHTML;
+    var tela2 = document.getElementById('tela2');
+    tela2.innerHTML = textoHTML2;
+};
+
+
+//daqui pra baixo, Junia diz que tentou fazer algo kkkk
+
+function ExibirComentarios(){
+
+    var textoHTML = '';
+    var textoHTML2 = '';
+
+    for ( let i = 0; i < Empresas.length; i++){
+        textoHTML += '<br><br><br>'
+        textoHTML += Empresas[i].nome;
+        for(let j = 0; j<Empresas[i].comentarios.length; j++)
+        {
+            textoHTML += '<br><br>'
+            textoHTML += Empresas[i].comentarios[j] + ' - ';
+        }
+    };
+
+    var tela = document.getElementById('tela');
+    tela.innerHTML = textoHTML;
+    var tela2 = document.getElementById('tela2');
+    tela2.innerHTML = textoHTML2;
+};
+
+

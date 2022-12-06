@@ -14,10 +14,7 @@
 </head>
 <body>
     <!--BLOCO DO MENU SUPERIOR-->
-	
-    <div class="menu">
-	    
-	    
+    <div class="menu">        
         <ul>
             <li><a href="index.html" class="logo">FideOn</a></li>
             <li><a href="#empresa">Para Empresas</a></li>
@@ -30,23 +27,24 @@
     <section class="corpo">
         <!--BLOCO DE LOGIN -->
         
-        <div class="login">
-            <div class="bloco-login">
-                <h2>Login Cliente</h2>
-                <form action="" onsubmit="validarLogin()" method="post" id="credenciais">
-                    <input type="text" id="uniqueID" placeholder="email">
-                    <input type="password" id="uniquePW" placeholder="Senha">
-                    <input type="button" value="Login" onclick="validarLogin()">                          
-                </form>
-                <a href="recuperacao.html">Forgot Password?</a>
-            </div>    
-            
+        <div class="blocos">
+            <div class="login">
+                <div class="bloco-login">
+                    <h2>Login Cliente</h2>
+                    <form action="" method="post" id="credenciais">
+                        <input type="text" id="uniqueID" placeholder="email">
+                        <input type="password" id="uniquePW" placeholder="Senha">
+                        <input type="button" value="Login" onclick="validarLogin()">                          
+                    </form>
+                    <a href="recuperacao.html">Forgot Password?</a>
+                </div>              
+            </div>
         </div>
 
         <div>
                 <!--A FIDEON-->
             <div class="empresa">
-                <img src="./img/para-empresas.png" alt="">
+                <img src="img/para-empresas.png" alt="">
                 <p>Um nova maneira de fidelizar clientes. <br><br> Controle de beneficios gerados, 
                     categorização de clientes, uma forma mais rápida de se conectar a ele.<br><br>
                     e muito mais...<br><br>
@@ -55,7 +53,7 @@
 
             <!--VANTAGENS FIDEON-->
             <div class="vantagens">
-                <img src="./img/vantagens.png" alt="">
+                <img src="img/vantagens.png" alt="">
                 <p>Uma gestão melhor dos benefícios para você e seu cliente<br><br>
                     Sistema de pontos com mais controle<br><br>
                     Menos chances de deixar vencer um benefício adquirido.</p>
@@ -92,6 +90,31 @@
             </form>
         </div>
 
+        <div class="blocos">
+
+            <div class="container">
+                <form action="submit" class="form">
+                    <h2>Fale conosco!</h2>
+                    <input type="email" placeholder="Email" required>
+                    <input type="text" placeholder="Assunto" required>
+                    <input type="submit">
+                </form>        
+            </div>
+
+            <div class="container"> <!--bloco de quadrado. Imagem e formulario em si-->
+                <form action="" class="form">
+                    <h2>RECUPERAÇÃO DE LOGIN</h2>
+                    <h3>Insira seu email que lhe enviaremos as instruções para recuperação</h3>
+                    <input type="email" placeholder="email">
+                    <div>
+                        <input type="submit" name="Enviar" onClick="alert('Siga as instruções no seu email!')">
+                    </div>
+                </form>
+            </div>
+
+
+        </div>
+
         <!--SOBRE-->
         <div id="sobre">
             <ul>
@@ -109,6 +132,6 @@
         </div>
     </section>
 
-    <script type="text/javascript" src="./js/app.js"></script>
+    <script type="text/javascript" src="js/app.js"></script>
 </body>
 </html>
