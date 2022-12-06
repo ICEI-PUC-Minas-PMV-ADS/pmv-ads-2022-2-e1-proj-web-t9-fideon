@@ -186,7 +186,8 @@ function validarLogin(){
 
     for (let i = 0; i < Cadastro.length; i++){
         if(uniqueCliente === Cadastro[i].email && ClientePassword === Cadastro[i].senha){            
-            alert('Validar login!');            
+            alert('Validar login!');     
+            window.location.href = 'index-cliente.html';
             return true;
         }            
     }
@@ -194,6 +195,7 @@ function validarLogin(){
     for (let i = 0; i < Empresas.length; i++){
         if(uniqueCliente === Empresas[i].email && ClientePassword === Empresas[i].senha){
             alert('Validar login!');
+            window.location.href = 'index-empresa.html';
             return true;
         }            
     }
