@@ -179,7 +179,7 @@ var Empresas = [
 
 /* VALIDAR LOGIN */
 
-function validarLogin(user){
+function validarLogin(){
     
     var uniqueCliente = document.getElementById("uniqueID").value;
     var ClientePassword = document.getElementById("uniquePW").value;
@@ -188,9 +188,8 @@ function validarLogin(user){
     for (let i = 0; i < Cadastro.length; i++){
         if(uniqueCliente === Cadastro[i].email && ClientePassword === Cadastro[i].senha){            
             alert('Validar login!');
-            userIndex(i);
             window.location.href = 'index-cliente.html';
-            return user;
+            return;
         }          
     }
 
@@ -202,13 +201,9 @@ function validarLogin(user){
         }          
     }
 
-    alert('invalido');
+    alert('Usuário e/ou senha incorretos');
     return;
 };
-
-function userIndex(num){
-    return num;
-}
 
 function Welcome1(){
 
