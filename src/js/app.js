@@ -1,5 +1,6 @@
 var Cadastro = [
     {
+        "index":0,
         "nome":"Otávio das Neves",
         "cidade":"Belo Horizonte",
         "idade":20,
@@ -10,6 +11,7 @@ var Cadastro = [
         "favorito":"Padaria da Neca"
     },
     {
+        "index":1,
         "nome":"Maria Luiza Aragão",
         "cidade":"Belo Horizonte",
         "idade":32,
@@ -20,7 +22,7 @@ var Cadastro = [
         "favorito":"Padaria da Neca"
     },
     {
-        "nome":"Ana Pereira",
+        "index":2,
         "cidade":"Belo Horizonte",
         "idade":19,
         "email":"pereira.ana@gmail.com",
@@ -30,6 +32,7 @@ var Cadastro = [
         "favorito":"Padaria da Neca"
     },
     {
+        "index":3,
         "nome":"Helena da Mata",
         "cidade":"Belo Horizonte",
         "idade":25,
@@ -40,6 +43,7 @@ var Cadastro = [
         "favorito":"Padaria da Neca"
     },
     {
+        "index":4,
         "nome":"Heitor Oliveira",
         "cidade":"Belo Horizonte",
         "idade":41,
@@ -50,6 +54,7 @@ var Cadastro = [
         "favorito":"Padaria da Neca"
     },
     {
+        "index":5,
         "nome":"Raquel da Mota",
         "cidade":"Belo Horizonte",
         "idade":39,
@@ -60,6 +65,7 @@ var Cadastro = [
         "favorito":"Padaria da Neca"
     },
     {
+        "index":6,
         "nome":"João Lucas Martins",
         "cidade":"Belo Horizonte",
         "idade":22,
@@ -70,6 +76,7 @@ var Cadastro = [
         "favorito":"Padaria da Neca"
     },
     {
+        "index":7,
         "nome":"Carolina Moura",
         "cidade":"Belo Horizonte",
         "idade":23,
@@ -80,6 +87,7 @@ var Cadastro = [
         "favorito":"Padaria da Neca"
     },
     {
+        "index":8,
         "nome":"Davi Lucca Martins",
         "cidade":"Belo Horizonte",
         "idade":20,
@@ -188,44 +196,36 @@ function validarLogin(){
     for (let i = 0; i < Cadastro.length; i++){
         if(uniqueCliente === Cadastro[i].email && ClientePassword === Cadastro[i].senha){            
             alert('Validar login!');
-            window.location.href = 'index-cliente.html';
-            return;
+            window.location.href = 'index-cliente.html' + '#' + Cadastro[i].index;
+            return ;
         }          
     }
 
     for (let i = 0; i < Empresas.length; i++){
         if(uniqueCliente === Empresas[i].email && ClientePassword === Empresas[i].senha){
             alert('Validar login!'); 
-            window.location.href = 'index-empresa.html';            
+            window.location.href = 'index-empresa.html' + '#' + Empresas[i].nome;            
             return;
-        }          
+        }  
     }
 
-    alert('Usuário e/ou senha incorretos');
+    alert('invalido');
     return;
 };
 
-function Welcome1(){
 
-    
+function Welcome(){
 
-    var textoHTML = 'Bem vindo, ' + Cadastro[0].nome + '!!' +
-    '<br>' +
-    'No menu acima, você pode visualizar seus dados. Fique a vontade.';
-    var textoHTML2 = '';
+    var index = window.location.hash.substring(1);
+    alert(window.location.hash.substring(1));
+    var textoHTML = 'Bem vindo, '
+    for (let i = 0; i < Cadastro.length; i++){
+        if(index == Cadastro[i].index){
+            textoHTML += Cadastro[i].nome;
+        }
+    }
 
-
-    var tela = document.getElementById('tela');
-    tela.innerHTML = textoHTML;
-    var tela2 = document.getElementById('tela2');
-    tela2.innerHTML = textoHTML2;
-}
-
-function Welcome2(){
-
-    var textoHTML = 'Bem vindo, ' + Empresas[0].nome + '!!' +
-    '<br>' +
-    'No menu acima, você pode visualizar seus dados. Fique a vontade.';
+    textoHTML += '!!' + '<br>' + 'No menu acima, você pode visualizar seus dados. Fique a vontade.';
     var textoHTML2 = '';
 
 
@@ -256,7 +256,7 @@ function ExibirFavorito(){
 
     var textoHTML2 = '';
     var textoHTML = 'Minha empresa FideOn favorita é ';
-    textoHTML += Cadastro[user].favorito;   
+    textoHTML += Cadastro[0].favorito;   
 
     var tela = document.getElementById('tela');
     tela.innerHTML = textoHTML;
@@ -373,7 +373,6 @@ function ExibirRank(){
     var tela2 = document.getElementById('tela2');
     tela2.innerHTML = textoHTML2;
 };
-
 
 //daqui pra baixo, Junia diz que tentou fazer algo kkkk
 
