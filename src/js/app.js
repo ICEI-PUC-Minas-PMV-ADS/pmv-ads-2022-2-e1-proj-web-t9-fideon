@@ -1,106 +1,117 @@
 var Cadastro = [
     {
-        "index":0,
+        "Index":1,
         "nome":"Otávio das Neves",
-        "cidade":"Belo Horizonte",
+        "cidade":"Contagem",
         "idade":20,
         "email":"otavioneves@gmail.com",
-        "senha":"123456",
         "telefone":"(31) 3081-6314",
+        "favorito":"Padaria da Neca",
         "rank":1,
-        "favorito":"Padaria da Neca"
+        "senha":"123456"
     },
     {
-        "index":1,
+        "Index":2,
         "nome":"Maria Luiza Aragão",
         "cidade":"Belo Horizonte",
         "idade":32,
         "email":"malu.aragao@gmail.com",
-        "senha":"123456",
         "telefone":"(31) 3033-0713",
+        "favorito":"Pizzaria do Doca",
         "rank":2,
-        "favorito":"Padaria da Neca"
+        "senha":"123456",
     },
     {
-        "index":2,
-        "cidade":"Belo Horizonte",
+        "Index":3,
+        "nome":"Ana Pereira",
+        "cidade":"Betim",
         "idade":19,
         "email":"pereira.ana@gmail.com",
-        "senha":"123456",
         "telefone":"(31) 2389-4037",
+        "favorito":"Restaurante da Esquina",
         "rank":3,
-        "favorito":"Padaria da Neca"
+        "senha":"123456",
     },
     {
-        "index":3,
+        "Index":4,
         "nome":"Helena da Mata",
         "cidade":"Belo Horizonte",
         "idade":25,
         "email":"helenamata12@gmail.com",
-        "senha":"123456",
         "telefone":"(31) 3142-7280",
+        "favorito":"Padaria da Neca",
         "rank":2,
-        "favorito":"Padaria da Neca"
+        "senha":"123456",
     },
     {
-        "index":4,
+        "Index":5,
         "nome":"Heitor Oliveira",
         "cidade":"Belo Horizonte",
         "idade":41,
         "email":"oliveiraheitor@gmail.com",
-        "senha":"123456",
         "telefone":"(31) 2732-4117",
+        "favorito":"Restaurante da Esquina",
         "rank":2,
-        "favorito":"Padaria da Neca"
+        "senha":"123456",
     },
     {
-        "index":5,
+        "Index":6,
         "nome":"Raquel da Mota",
-        "cidade":"Belo Horizonte",
+        "cidade":"Ribeirão das Neves",
         "idade":39,
         "email":"raquelmota@gmail.com",
-        "senha":"123456",
         "telefone":"(31) 2005-1896",
+        "favorito":"Bão de Minas",
         "rank":1,
-        "favorito":"Padaria da Neca"
+        "senha":"123456",
     },
     {
-        "index":6,
+        "Index":7,
         "nome":"João Lucas Martins",
-        "cidade":"Belo Horizonte",
+        "cidade":"Nova Lima",
         "idade":22,
         "email":"lucasmartins.joao@gmail.com",
-        "senha":"123456",
         "telefone":"(35) 2870-2070",
+        "favorito":"Padaria da Neca",
         "rank":1,
-        "favorito":"Padaria da Neca"
+        "senha":"123456",
     },
     {
-        "index":7,
+        "Index":8,
         "nome":"Carolina Moura",
         "cidade":"Belo Horizonte",
         "idade":23,
         "email":"carolmou@gmail.com",
-        "senha":"123456",
         "telefone":"(32) 2315-6615",
+        "favorito":"Pizzaria do Doca",
         "rank":2,
-        "favorito":"Padaria da Neca"
+        "senha":"123456",
     },
     {
-        "index":8,
+        "Index":9,
         "nome":"Davi Lucca Martins",
-        "cidade":"Belo Horizonte",
+        "cidade":"Nova Lima",
         "idade":20,
         "email":"davilucca@gmail.com",
-        "senha":"123456",
         "telefone":"(32) 3706-7007",
+        "favorito":"Açai Legal",
         "rank":3,
-        "favorito":"Padaria da Neca"
+        "senha":"123456",
     }
 ];
 
+var Adm = [
+    {
+        "index":0,
+        "nome":"Administrador FideOn",
+        "email":"fideon@fideon.com.br",
+        "senha":"654321"
+    }
+]
+
 var Empresas = [
     {
+        "index":-1,
         "nome":"Padaria da Neca",
         "endereço":"Av dos Milagres, 982",
         "bairro":"Cabral",
@@ -111,13 +122,10 @@ var Empresas = [
             "Atendimento excelente! Preços ok",
             "Tudo perfeito!",
             "Achei os preços um pouco salgados, mas de resto, perfeito",
-            "Funciona 24h!"],
-        "vendas":[
-            "Pão Francês, 1000 unidades",
-            "Pizzas, 5 unidades"
-        ]
+            "Funciona 24h!"]
     },
     {
+        "index":-2,
         "nome":"Pizzaria do Doca",
         "endereço":"Av Paulista, 321",
         "bairro":"Dona Clara",
@@ -126,13 +134,10 @@ var Empresas = [
         "senha":"123456",
         "comentarios":[
             "Otima pizza, pessimo atendimento",
-        ],
-        "vendas":[
-            "Pão Francês, 1000 unidades",
-            "Pizzas, 5 unidades"
         ]
     },
     {
+        "index":-3,
         "nome":"Restaurante da Esquina",
         "endereço":"Rua dos Beija-flores, 99",
         "bairro":"Tiradentes",
@@ -141,13 +146,10 @@ var Empresas = [
         "senha":"123456",
         "comentarios":[
             "Ideal para um almoço executivo, sem gastar muito",
-        ],
-        "vendas":[
-            "Pão Francês, 1000 unidades",
-            "Pizzas, 5 unidades"
         ]
     },
     {
+        "index":-4,
         "nome":"Bão de Minas",
         "endereço":"Ruas dos Atleticanos, 299",
         "bairro":"Caiçara",
@@ -159,13 +161,10 @@ var Empresas = [
             "Tudo perfeito!",
             "Local super aconchegante e familiar",
             "Brunch maravilhoso, super recomendo!"
-        ],
-        "vendas":[
-            "Pão Francês, 1000 unidades",
-            "Pizzas, 5 unidades"
         ]
     },
     {
+        "index":-5,
         "nome":"Açaí Legal",
         "endereço":"Rua dos Cruzeirenses, 399 B",
         "bairro":"Floresta",
@@ -173,14 +172,9 @@ var Empresas = [
         "email":"acailegal@fideon.com.br",
         "senha":"123456",
         "comentarios":[
-            "Atendimento excelente! Preços ok",
-            "Tudo perfeito!",
-            "Achei os preços um pouco salgados, mas de resto, perfeito",
-            "Funciona 24h!"
-        ],
-        "vendas":[
-            "Pão Francês, 1000 unidades",
-            "Pizzas, 5 unidades"
+            "Açai super gostoso, mas faltaram opções de acompanhamento",
+            "Não fui atendido, não saberia avaliar!",
+            "Açai de verdade"
         ]
     }
 ];
@@ -195,33 +189,50 @@ function validarLogin(){
     
     for (let i = 0; i < Cadastro.length; i++){
         if(uniqueCliente === Cadastro[i].email && ClientePassword === Cadastro[i].senha){            
-            alert('Validar login!');
-            window.location.href = 'index-cliente.html' + '#' + Cadastro[i].index;
+            window.location.href = 'index-cliente.html' + '#' + Cadastro[i].Index;
             return ;
         }          
     }
 
     for (let i = 0; i < Empresas.length; i++){
-        if(uniqueCliente === Empresas[i].email && ClientePassword === Empresas[i].senha){
-            alert('Validar login!'); 
-            window.location.href = 'index-empresa.html' + '#' + Empresas[i].nome;            
+        if(uniqueCliente === Empresas[i].email && ClientePassword === Empresas[i].senha){            
+            window.location.href = 'index-empresa.html' + '#' + Empresas[i].index;            
             return;
         }  
     }
 
-    alert('invalido');
+    alert('Nome e/ou usuário incorretos!');
     return;
 };
 
 
-function Welcome(){
+function WelcomeCliente(){
 
     var index = window.location.hash.substring(1);
-    alert(window.location.hash.substring(1));
-    var textoHTML = 'Bem vindo, '
+    var textoHTML = 'Olá, '
     for (let i = 0; i < Cadastro.length; i++){
-        if(index == Cadastro[i].index){
+        if(index == Cadastro[i].Index){
             textoHTML += Cadastro[i].nome;
+        }
+    }
+
+    textoHTML += '!!' + '<br>' + 'No menu acima, você pode visualizar seus dados. Fique a vontade.';
+    var textoHTML2 = '';
+
+
+    var tela = document.getElementById('tela');
+    tela.innerHTML = textoHTML;
+    var tela2 = document.getElementById('tela2');
+    tela2.innerHTML = textoHTML2;
+}
+
+function WelcomeEmpresa(){
+
+    var index = window.location.hash.substring(1);
+    var textoHTML = 'Olá, '
+    for (let i = 0; i < Empresas.length; i++){
+        if(index == Empresas[i].index){
+            textoHTML += Empresas[i].nome;
         }
     }
 
@@ -252,11 +263,10 @@ function OndeEncontrar(){
 
 }
 
-function ExibirFavorito(){
-
+function ExibirFavorito(index){
     var textoHTML2 = '';
     var textoHTML = 'Minha empresa FideOn favorita é ';
-    textoHTML += Cadastro[0].favorito;   
+    textoHTML += Cadastro[index].favorito;   
 
     var tela = document.getElementById('tela');
     tela.innerHTML = textoHTML;
@@ -274,7 +284,7 @@ function ExibirBeneficios(){
     'Cliente Bronze: 10% desconto em toda a loja.<br>';
 
 
-    switch(Cadastro[user].rank){
+    switch(Cadastro[0].rank){
         case 1:
             textoHTML += 'Ouro';
             break;
@@ -318,32 +328,78 @@ function ExibirPerfis(){
     tela2.innerHTML = textoHTML2;
 };
 
-function ExibirEmpresas(){
-    
-    var textoHTML = 'Confira abaixo nossas empresas parceiras!';
-    var textoHTML2 = '';
+  // Cria a tabela HTML de Empresas ou Cadastro.
+function ExibirEmpresas(selector) {
 
-    for ( let i = 0; i < Empresas.length; i++){
-        textoHTML += '<br><br><br>'
-        textoHTML += Empresas[i].nome + '<br>';
-        textoHTML += 'Endereço: ' + Empresas[i].endereço + '<br>';
-        textoHTML += 'Bairro: ' + Empresas[i].bairro + '<br>';
-        textoHTML += 'Telefone: ' + Empresas[i].telefone + '<br>' ;
-        textoHTML += 'Email: ' + Empresas[i].email + '<br>';
-
-        textoHTML += 'Comentários:'
-        for(let j = 0; j<Empresas[i].comentarios.length; j++)
-        {
-            textoHTML += '<br>'
-            textoHTML += Empresas[i].comentarios[j];
-        }
-    };
-
-    var tela = document.getElementById('tela');
-    tela.innerHTML = textoHTML;
-    var tela2 = document.getElementById('tela2');
-    tela2.innerHTML = textoHTML2;
+    var columns = addTableHeaderEmpresas(Empresas, selector);
+  
+    for (var i = 0; i < Empresas.length; i++) {
+      var row$ = $('<tr/>');
+      for (var colIndex = 0; colIndex < columns.length; colIndex++) {
+        var cellValue = Empresas[i][columns[colIndex]];
+        if (cellValue == null) cellValue = "";
+        row$.append($('<td/>').html(cellValue));
+      }
+      $(selector).append(row$);
+    }
 };
+
+function ExibirCadastros(selector) {
+
+    var columns = addTableHeaderCadastros(Cadastro, selector);
+  
+    for (var i = 0; i < Cadastro.length; i++) {
+      var row$ = $('<tr/>');
+      for (var colIndex = 0; colIndex < columns.length - 1; colIndex++) {
+        var cellValue = Cadastro[i][columns[colIndex]];
+        if (cellValue == null) cellValue = "";
+        row$.append($('<td/>').html(cellValue));
+      }
+      $(selector).append(row$);
+    }
+};
+  
+  // Adds a header row to the table and returns the set of columns.
+  // Need to do union of keys from all records as some records may not contain
+  // all records.
+function addTableHeaderEmpresas(Empresas, selector) {
+
+    var columnSet = [];
+    var headerTr$ = $('<tr/>');
+  
+    for (var i = 0; i < Empresas.length; i++) {
+      var rowHash = Empresas[i];
+      for (var key in rowHash) {
+        if ($.inArray(key, columnSet) == -1) {
+          columnSet.push(key);
+          headerTr$.append($('<th/>').html(key));
+        }
+      }
+    }
+    $(selector).append(headerTr$);
+  
+    return columnSet;
+};
+
+function addTableHeaderCadastros(Cadastro, selector) {
+
+    var columnSet = [];
+    var headerTr$ = $('<tr/>');
+  
+    for (var i = 0; i < Cadastro.length; i++) {
+      var rowHash = Cadastro[i];
+      for (var key in rowHash) {
+        if ($.inArray(key, columnSet) == -1) {
+          columnSet.push(key);
+          headerTr$.append($('<th/>').html(key));
+        }
+      }
+    }
+    $(selector).append(headerTr$);
+  
+    return columnSet;
+};
+
 
 function ExibirRank(){
 
