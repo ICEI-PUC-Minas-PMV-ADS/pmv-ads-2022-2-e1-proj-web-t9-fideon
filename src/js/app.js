@@ -286,13 +286,13 @@ function ExibirBeneficios(){
 
     switch(Cadastro[0].rank){
         case 1:
-            textoHTML += 'Ouro';
+            textoHTML += 'Ouro. Válido por um ano, a partir da aquisição';
             break;
         case 2:
-            textoHTML += 'Prata';
+            textoHTML += 'Prata. Válido por 6 meses, a partir da aquisição';
             break;
         case 3:
-            textoHTML += 'Bronze';
+            textoHTML += 'Bronze. Válido por 1 mês, a partir da aquisição';
             break;
         default:
             textoHTML += 'Invalido';
