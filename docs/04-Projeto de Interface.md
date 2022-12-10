@@ -20,7 +20,6 @@ O diagrama apresentado na figura acima mostra o fluxo de interação do usuário
 Conforme fluxo de telas do projeto, apresentado no item anterior, as telas do sistema são apresentadas em detalhes nos itens que se seguem. As telas do sistema apresentam uma estrutura comum. Nesta estrutura, existem 3 grandes blocos, descritos a seguir. São eles:
 - **Cabeçalho**: local onde são dispostos elementos fixos de identidade (logo) e navegação principal do site (menu da aplicação);
 - **Conteúdo**: apresenta o conteúdo da tela em questão;
-- **Barra Lateral**: disponível nas telas de login dos usuários e contém elementos de navegação secundária.
 
 **Tela - Home Page Responsiva - Menu de navegação na própria página**
 
@@ -31,7 +30,7 @@ A tela de home-page mostra os beneficios do sistema para empresas e para os clie
 
 **Tela - Login**
 
-A tela de login é uma para ambos os tipo de usuário, Empresa e Cliente da empresa. Nela, o usuário seleciona seu tipo de relacionamento com o sistema e coloca suas credencias de acesso.
+A tela de login é uma para ambos os tipo de usuário, Empresa e Cliente da empresa. Nela, o usuário coloca suas credencias de acesso e entra na sua tela de acordo com seu tipo de usuário..
 
 ![Tela Login](img/tela-login.jpeg)
 <center>Figura 4 - Tela Login</center>
@@ -39,9 +38,8 @@ A tela de login é uma para ambos os tipo de usuário, Empresa e Cliente da empr
 **Tela - Usuário Empresa**
 
 A tela do Usuário Empresa é composta por 3 blocos:
-- **Cabeçalho**: onde estara a logo do Usuário empresa e a navegação usuário;
-- **Barra Lateral**: Contém iténs de navegação secundária, como: Clientes, ferramentas, cadastro de produtos, relatórios e outros;
-- **Conteúdo**: Contém informações importantes para o usuário Empresa, como: comentários dos seus clientes e dashboard de ProdutoxQuantidade vendida.
+- **Cabeçalho**: onde estará os itens de navegação disponíveis para a empresa, como: Clientes, Relatórios, Ferramentas e Fale com a Fideon;
+- **Conteúdo**: Contém informações importantes para o usuário Empresa.
 
 ![Tela Usuário Empresa](img/tela-empresa.jpeg)
 <center>Figura 5 - Tela Usuário Empresa</center>
@@ -50,8 +48,7 @@ A tela do Usuário Empresa é composta por 3 blocos:
 
 A tela do Usuário Cliente é composta por 3 blocos:
 - **Cabeçalho**: onde estara o nome do Usuário cliente e a navegação usuário;
-- **Barra Lateral**: Contém iténs de navegação secundária, como: meus beneficios, estabelecimentos, relatórios, etc;
-- **Conteúdo**: Contém informações importantes para o usuário Cliente, como: meus cartões, estabelecimentos recomendados e mapa com os estabelecimentos próximos a ele.
+- **Conteúdo**: Contém informações importantes para o usuário Cliente.
 
 ![Tela Usuário Cliente](img/tela-cliente.jpeg)
 <center>Figura 6 - Tela Usuário Cliente</center>
