@@ -22,8 +22,8 @@ A equipe utiliza metodologias ágeis, tendo escolhido o Scrum como base para def
 
 A equipe está organizada da seguinte maneira:
 - Scrum Master: Júnia Marina Campos.
-- Product Owner: Cláudio Henrique.
-- Equipe de Desenvolvimento: Gustavo Silva, André Luiz e Kennedy Oliveira.
+- Product Owner: Kennedy Oliveira.
+- Equipe de Desenvolvimento: Gustavo Silva.
 - Equipe de Design: Ana Flávia.
 
 ### Processo
