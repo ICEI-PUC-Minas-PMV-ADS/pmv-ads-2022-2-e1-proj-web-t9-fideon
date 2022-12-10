@@ -122,14 +122,3 @@ A tela usuário empresa contempla as seguintes funcionalidade:
 
 # Outras Funcionalidades
 
-**Cadastro de cliente dentro do Login Usuário Empresa**
-
-Aqui, o usuário empresa clica no menu lateral, submenu "Cadastro" e abre um formulário para ele cadastrar um novo cliente, caso este ainda não use o FideOn.
-
-**Perfil do Cliente**
-
-Aqui o usuário empresa visualizará sua clientela dividida por genero e idade, para conseguir traçar as melhores estratégias de Marketing.
-
-**Comentários cliente**
-
-Aqui o usuário empresa vusializará os cometários relaizados por seus clientes.
