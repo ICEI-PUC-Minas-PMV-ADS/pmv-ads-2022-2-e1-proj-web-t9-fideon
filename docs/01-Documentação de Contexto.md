@@ -5,14 +5,14 @@ Ao mesmo tempo, a empresa que utiliza sistema de fidelização por cartão/papel
 Nesse sentido, torna-se fundamental adotar um sistema de fidelização que não dependa somente do cartão físico, mas sim de um sistema capaz de guardar essas informações com mais segurança com responsabilidade da própria empresa
 
 ## Problema
-Conforme exposto, o problema que se busca resolver com este projeto é a dependência de cartões físicos de fidelidade para adquirir ou fornecer benefícios.
+Conforme exposto, o problema que se busca resolver com este projeto é a utilização de sistema web para para adquirir ou fornecer benefícios/fidelidade.
 
 ## Objetivos
 
 O objetivo geral deste trabalho é a criação de um sistema online de fidelidade que apresente ferramentas de fácil uso e que permita o acesso a todos os benefícios adquiridos em diferentes empresas pelo usuário (cliente) apenas com um login e senha de cadastro.
 
 Como objetivos específicos, podemos ressaltar:
-●	Fornecer informações para a empresa sobre o aumento/diminuição de clientes;
+●	Fornecer informações para a empresa sobre a opinião dos clientes;
 ●	Categorizar os clientes;
 ●	Permitir que o cliente avalie e pontue a empresa (interaja com os estabelecimentos).
 
