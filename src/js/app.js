@@ -111,7 +111,7 @@ var Adm = [
 
 var Empresas = [
     {
-        "index":-1,
+        "index":11,
         "nome":"Padaria da Neca",
         "endereço":"Av dos Milagres, 982",
         "bairro":"Cabral",
@@ -125,7 +125,7 @@ var Empresas = [
             "Funciona 24h!"]
     },
     {
-        "index":-2,
+        "index":12,
         "nome":"Pizzaria do Doca",
         "endereço":"Av Paulista, 321",
         "bairro":"Dona Clara",
@@ -137,7 +137,7 @@ var Empresas = [
         ]
     },
     {
-        "index":-3,
+        "index":13,
         "nome":"Restaurante da Esquina",
         "endereço":"Rua dos Beija-flores, 99",
         "bairro":"Tiradentes",
@@ -149,7 +149,7 @@ var Empresas = [
         ]
     },
     {
-        "index":-4,
+        "index":14,
         "nome":"Bão de Minas",
         "endereço":"Ruas dos Atleticanos, 299",
         "bairro":"Caiçara",
@@ -164,7 +164,7 @@ var Empresas = [
         ]
     },
     {
-        "index":-5,
+        "index":15,
         "nome":"Açaí Legal",
         "endereço":"Rua dos Cruzeirenses, 399 B",
         "bairro":"Floresta",
@@ -430,27 +430,29 @@ function ExibirRank(){
     tela2.innerHTML = textoHTML2;
 };
 
-//daqui pra baixo, Junia diz que tentou fazer algo kkkk
+
 
 function ExibirComentarios(){
 
+    var index = window.location.hash.substring(1);
     var textoHTML = '';
     var textoHTML2 = '';
 
-    for ( let i = 0; i < Empresas.length; i++){
         textoHTML += '<br><br><br>'
-        textoHTML += Empresas[i].nome;
-        for(let j = 0; j<Empresas[i].comentarios.length; j++)
+        textoHTML += Empresas[index].nome;
+        for(let j = 0; j<Empresas[index].comentarios.length; j++)
         {
             textoHTML += '<br><br>'
-            textoHTML += Empresas[i].comentarios[j] + ' - ';
-        }
-    };
+            textoHTML += Empresas[index].comentarios[j] + ' - ';
+        };
 
     var tela = document.getElementById('tela');
     tela.innerHTML = textoHTML;
     var tela2 = document.getElementById('tela2');
     tela2.innerHTML = textoHTML2;
 };
+
+
+
 
 
