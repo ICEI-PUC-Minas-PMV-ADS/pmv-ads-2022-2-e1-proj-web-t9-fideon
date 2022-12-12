@@ -145,13 +145,10 @@ var ValidaEmpresas = [
 
 var Empresas = [
     {
-        "index":11,
         "nome":"Padaria da Neca",
         "endereço":"Av dos Milagres, 982",
         "bairro":"Cabral",
         "telefone":"(31) 3234 5432",
-        "email":"padariadaneca@fideon.com.br",
-        "senha":"123456",
         "comentarios":[
             "Atendimento excelente! Preços ok",
             "Tudo perfeito!",
@@ -159,37 +156,28 @@ var Empresas = [
             "Funciona 24h!"]
     },
     {
-        "index":12,
         "nome":"Pizzaria do Doca",
         "endereço":"Av Paulista, 321",
         "bairro":"Dona Clara",
         "telefone":"(31) 3122 8965",
-        "email":"pizzadodoca@fideon.com.br",
-        "senha":"123456",
         "comentarios":[
             "Otima pizza, pessimo atendimento",
         ]
     },
     {
-        "index":13,
         "nome":"Restaurante da Esquina",
         "endereço":"Rua dos Beija-flores, 99",
         "bairro":"Tiradentes",
         "telefone":"(31) 3667 5489",
-        "email":"esquinarestaurante@fideon.com.br",
-        "senha":"123456",
         "comentarios":[
             "Ideal para um almoço executivo, sem gastar muito",
         ]
     },
     {
-        "index":14,
         "nome":"Bão de Minas",
         "endereço":"Ruas dos Atleticanos, 299",
         "bairro":"Caiçara",
         "telefone":"(31) 3381-9638",
-        "email":"baodeminas@fideon.com.br",
-        "senha":"123456",
         "comentarios":[
             "Atendimento excelente! Preços de acordo com a qualidade do local",
             "Tudo perfeito!",
@@ -198,13 +186,10 @@ var Empresas = [
         ]
     },
     {
-        "index":15,
         "nome":"Açaí Legal",
         "endereço":"Rua dos Cruzeirenses, 399 B",
         "bairro":"Floresta",
         "telefone":"(31) 2213-5642",
-        "email":"acailegal@fideon.com.br",
-        "senha":"123456",
         "comentarios":[
             "Açai super gostoso, mas faltaram opções de acompanhamento",
             "Não fui atendido, não saberia avaliar!",
