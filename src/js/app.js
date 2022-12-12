@@ -109,6 +109,40 @@ var Adm = [
     }
 ]
 
+var ValidaEmpresas = [
+    {
+        "index":1,
+        "email":"padariadaneca@fideon.com.br",
+        "senha":"123456"
+    },
+       
+    {
+        "index":2,
+        "email":"pizzadodoca@fideon.com.br",
+        "senha":"123456"
+    },
+
+    {
+        "index":3,
+        "email":"esquinarestaurante@fideon.com.br",
+        "senha":"123456"
+    },
+
+    {
+        "index":4,
+        "email":"baodeminas@fideon.com.br",
+        "senha":"123456"
+    },
+
+    {
+        "index":5,
+        "email":"acailegal@fideon.com.br",
+        "senha":"123456"
+    }
+
+]
+
+
 var Empresas = [
     {
         "index":11,
@@ -194,9 +228,9 @@ function validarLogin(){
         }          
     }
 
-    for (let i = 0; i < Empresas.length; i++){
-        if(uniqueCliente === Empresas[i].email && ClientePassword === Empresas[i].senha){            
-            window.location.href = 'index-empresa.html' + '#' + Empresas[i].index;            
+    for (let i = 0; i < ValidaEmpresas.length; i++){
+        if(uniqueCliente === ValidaEmpresas[i].email && ClientePassword === ValidaEmpresas[i].senha){            
+            window.location.href = 'index-empresa.html' + '#' + ValidaEmpresas[i].index;            
             return;
         }  
     }
@@ -231,7 +265,7 @@ function WelcomeEmpresa(){
     var index = window.location.hash.substring(1);
     var textoHTML = 'Olá, '
     for (let i = 0; i < Empresas.length; i++){
-        if(index == Empresas[i].index){
+        if(index == ValidaEmpresas[i].index){
             textoHTML += Empresas[i].nome;
         }
     }
