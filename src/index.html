@@ -6,62 +6,59 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,200&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <script type="text/javascript" src="js/app.js"></script>
     <title>Página Principal</title>
 </head>
-<body>
-    <!--BLOCO DO MENU SUPERIOR-->
-    <div class="menu">        
-        <ul>
-            <li><a href="index.html" class="logo">FideOn</a></li>
+<body> 
+    <!--BLOCO DO MENU SUPERIOR-->   
+    <nav class="menu">        
+        <ul class="menu">
+            <li><a href="index.html">FideOn</a></li>
             <li><a href="#empresa">Para Empresas</a></li>
-            <li><a href="#vantagens">Vantagens</a></li>
+            <li><a href="#vantagens">Vatangens</a></li>
             <li><a href="#cadastro">Cadastro</a></li>
+            <li><a href="#bloco-login">Login</a></li>
+            <li><a href="#bloco-recuperacao">Recuperar senha</a></li>
+            <li><a href="#bloco-fale-conosco">Fale Conosco</a></li>
             <li><a href="#sobre">Sobre</a></li>
         </ul>
-    </div>
-      
-    <section class="corpo">
-        <!--BLOCO DE LOGIN -->        
-        <div class="blocos">
-            <div class="login">
-                <div class="bloco-login">
-                    <h2>Login Cliente</h2>
-                    <form action="" method="post" id="credenciais">
-                        <input type="text" id="uniqueID" placeholder="email">
-                        <input type="password" id="uniquePW" placeholder="Senha">
-                        <input type="button" value="Login" onclick="validarLogin()">                          
-                    </form>
-                    <a href="recuperacao.html">Forgot Password?</a>
-                </div>              
-            </div>
-        </div>
+    </nav>    
 
-        <div>
-                <!--A FIDEON-->
-            <div class="empresa">
+    <section class="corpo">      
+
+        <div class="servicos">
+            <!--A FIDEON-->
+            <div id="empresa">
                 <img src="img/para-empresas.png" alt="">
-                <p>Um nova maneira de fidelizar clientes. <br><br> Controle de beneficios gerados, 
+                <div>
+                    <h2>A melhor opção para sua empresa</h2>
+                    <p>Um nova maneira de fidelizar clientes. <br><br> Controle de beneficios gerados, 
                     categorização de clientes, uma forma mais rápida de se conectar a ele.<br><br>
                     e muito mais...<br><br>
                     Solicite sua demonstração e orçamento.</p>
-            </div>
+                </div>
+            </div>       
+        </div>
 
+        <div class="servicos">    
             <!--VANTAGENS FIDEON-->
-            <div class="vantagens">
+            <div id="vantagens">
                 <img src="img/vantagens.png" alt="">
+                <div>
+                    <h2>Ampla carta de benefícios</h2>
                 <p>Uma gestão melhor dos benefícios para você e seu cliente<br><br>
                     Sistema de pontos com mais controle<br><br>
                     Menos chances de deixar vencer um benefício adquirido.</p>
+                </div>
             </div>
-        </div>        
+        </div>
 
-        <!--BLOCO DE CADASTRO -->
         
+       
+    
+        <!--BLOCO DE CADASTRO -->        
         <div id="cadastro">
             <div class="img-cadastro">
                 <img src="./img/undraw_forms_re_pkrt.svg">
@@ -70,12 +67,12 @@
                 <h2>Cadastro</h2>            
                 <input id="firstname" type="text" name="firstname" placeholder="Digite seu primeiro nome" required>                
                 <input id="lastname" type="text" name="lastname" placeholder="Digite seu sobrenome" required>                
-				<input id="date" type="date" name="date" required>                
+                <input id="date" type="date" name="date" required>                
                 <input id="CPF" type="text" name="CPF" placeholder="Digite seu CPF" required>                
-				<input id="email" type="email" name="email" placeholder="Digite seu email" required>                            
+                <input id="email" type="email" name="email" placeholder="Digite seu email" required>                            
                 <input id="number" type="tel" name="number" placeholder="(xx) xxxxx-xxxx" required>                             
                 <input class="password" type="password" name="password" placeholder="Digite sua senha" required>                
-				<input class="password" type="password" name="confirmpassword" placeholder="Confirme sua senha" required>                <!--BLOCO GENDER-->
+                <input class="password" type="password" name="confirmpassword" placeholder="Confirme sua senha" required>                <!--BLOCO GENDER-->
                 <div class="gender">
                     <input type="radio" id="famale" name="gender">
                     <label for="famale">Feminino</label>
@@ -89,10 +86,21 @@
                 <input class="submit" type="submit" value="Confirmar cadastro">
             </form>
         </div>
-
+    
         <div class="blocos">
+            <!--BLOCO DE LOGIN -->        
+            <div id="bloco-login">
+                <h2>Login Cliente</h2>
+                <form action="" method="post" id="credenciais">
+                    <input type="text" id="uniqueID" placeholder="email">
+                    <input type="password" id="uniquePW" placeholder="Senha">
+                    <input type="button" value="Login" onclick="validarLogin()">                          
+                </form>
+                <a href="recuperacao.html">Forgot Password?</a>
+            </div>
 
-            <div class="container">
+            <!--BLOCO DE FALE CONOSCO -->  
+            <div id="bloco-fale-conosco">
                 <form action="submit" class="form">
                     <h2>Fale conosco!</h2>
                     <input type="email" placeholder="Email" required>
@@ -100,36 +108,43 @@
                     <input type="submit">
                 </form>        
             </div>
-
-            <div class="container"> <!--bloco de quadrado. Imagem e formulario em si-->
+            
+            <!--BLOCO DE RECUPERACAO -->  
+            <div id="bloco-recuperacao"> 
                 <form action="" class="form">
                     <h2>RECUPERAÇÃO DE LOGIN</h2>
                     <h3>Insira seu email que lhe enviaremos as instruções para recuperação</h3>
                     <input type="email" placeholder="email">
                     <div>
-                        <input type="submit" name="Enviar" onClick="alert('Siga as instruções no seu email!')">
+                        <input type="submit" name="Enviar" onClick="alert('Siga as instruções enviadas para o seu email!')">
                     </div>
                 </form>
             </div>
-
-
+            
+            
         </div>
-
+    
         <!--SOBRE-->
         <div id="sobre">
             <ul>
-                <li>Criadores
+                <li>Criadores:
                     <br>Gustavo Diniz
                     <br>Junia Campos
                     <br>Ana Flávia
                     <br>Kennedy de Oliveira
                 </li>
+                <li>Endereço:
+                    <br>Rua dos Amigos, 222
+                    <br>30110-059
+                    <br>Bairro Gutierrez, Belo Horizonte
+                </li>
                 <li>Dados para Contato:
-                    <br>Email: fideon@contatofideon
+                    <br>fideon@contatofideon
                     <br>Telefone: (31) 3329-5025
                 </li>
             </ul>
         </div>
     </section>
+
 </body>
 </html>
