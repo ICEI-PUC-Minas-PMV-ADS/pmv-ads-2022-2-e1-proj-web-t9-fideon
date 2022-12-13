@@ -412,10 +412,7 @@ function ExibirCadastros(selector) {
     var tela = document.getElementById('tela');
     tela.innerHTML = textoHTML;
 };
-  
-  // Adds a header row to the table and returns the set of columns.
-  // Need to do union of keys from all records as some records may not contain
-  // all records.
+
 function addTableHeaderEmpresas(Empresas, selector) {
 
     var columnSet = [];
