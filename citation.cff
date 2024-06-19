@@ -1,0 +1,24 @@
+message: Please cite this software using these metadata.
+title: FideOn
+authors:
+  - family-names: Flávia Gomes Mendes
+    given-names: Ana
+  - family-names: Silva Diniz
+    given-names: Gustavo
+  - family-names: Marina Campos
+    given-names: Júnia
+  - family-names: de Oliveira Machado Pires
+    given-names: Kennedy
+  - name-suffix: Professor
+    affiliation: PUC Minas
+    family-names: Ricardo dos Santos Machado
+    given-names: Will
+  - name-suffix: Professor
+    affiliation: PUC Minas
+keywords:
+  - Fidelização
+  - Cliente
+  - Benefícios
+repository-code: https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t9-fideon
+version: 1.0.0
+date-released: 2022-12-10
